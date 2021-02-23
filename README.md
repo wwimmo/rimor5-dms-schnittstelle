@@ -35,17 +35,17 @@ Dieser Benutzer hat auf der Datenbank Rimo R5 folgende Rechte:
 - Schreibrechte auf Tabellen mit Präfix: "DMS"
 - Leserechte auf Views mit Präfix: "vDMS"
 
-Eine detaillierte Dokumentation der Tabellen und Views ist im Abschnitt [DMS Schema]() dokumentiert.
+Eine detaillierte Dokumentation der Tabellen und Views ist im Abschnitt [DMS Schema](https://github.com/wwimmo/rimor5-dms-schnittstelle/blob/main/DMS%20Schema.md) dokumentiert.
 
 ## Dokumententypen
 Die DMS Schnittstelle verwendet einen definierten Katalog von Dokumententypen. Für eine möglichst automatisierte Verarbeitung der Dokumente ist die Angabe des Dokumententyps zu einem Dokument zwingend. Die Liste der möglichen Dokumententypen wird jeweils mit jeder Schnittstellenversion durch W&W veröffentlicht.
 
-[DMS Dokutypen.xlsx]()
+[DMS Dokutypen.xlsx](https://github.com/wwimmo/rimor5-dms-schnittstelle/blob/main/_dokumente/DMS%20Dokutypen.xlsx)
 
 ## DMS Schema
 Dem User DMS stehen in der Rimo R5 Datenbank Tabellen mit Schreibrechten sowie Views mit Leserechten zur Verfügung.
 
-[DMS Schema]()
+[DMS Schema](https://github.com/wwimmo/rimor5-dms-schnittstelle/blob/main/DMS%20Schema.md)
 
 ## Anwendungsbeispiele
 t.b.d
