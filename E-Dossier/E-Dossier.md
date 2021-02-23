@@ -3,10 +3,11 @@ Ab Rimo R5 Version 5.0 hat der Anwender die Möglichkeit im Rimo R5 zu sämtlich
 Die DMS Schnittstelle ist ab Version 5.0 komplett in der E-Dossier Funktionalität integriert.
 Ein DMS wird daher aus Sicht Rimo R5 als «alternativen Dokumentenspeicher» verstanden.
 
-Grün: Ein Mietvertrag ist im DMS und in der lokalen Dateiablage gleichzeitig gespeichert
-Gelb: Ein Foto zu einem Mietobjekt ist nur in der lokalen Dateiablage gespeichert
-Rot: Ein Belegdokument ist nur im DMS gespeichert
+![E-Dossier-Konzept](E-Dossier/E-Dossier-Konzept.png)
 
+*Grün: Ein Mietvertrag ist im DMS und in der lokalen Dateiablage gleichzeitig gespeichert*
+*Gelb: Ein Foto zu einem Mietobjekt ist nur in der lokalen Dateiablage gespeichert
+*Rot: Ein Belegdokument ist nur im DMS gespeichert*
 
 Ein Dokument kann somit dupliziert in beiden Datenspeichern (DMS und lokale Dateiablage) gleichzeitig liegen. Dieser Zustand ist im Besten Fall jedoch temporär. Durch definierte Ablageprozesse soll jedoch für jeden Dokumententypen einen eindeutigen Ablageort definiert werden können.
 Das Rimo R5 E-Dossier verwaltet die Dokumentenlink und stellt sicher, dass der Anwender jederzeit direkten Zugriff auf die Dokumente hat.
