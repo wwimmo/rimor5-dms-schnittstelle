@@ -5,10 +5,10 @@ Sämtliche Tabellen sind dem Owner DBA zugewiesen.
 |Tabelle|Beschreibung|
 |-|-|
 |[DMSImport](https://github.com/wwimmo/rimor5-dms-schnittstelle/blob/main/_staging%20area/DMSImport.md)|Jedes Dokument, welches im Rimo R5 verlinkt werden soll, erhält vorerst einen Eintrag in diese Tabelle.|
-|DMSImportLink|Zu jedem Dokument soll das DMS so viele Daten wie möglich bereits an Rimo R5 übermitteln, damit Rimo R5 das Dokument möglichst automatisiert im E-Dossier verlinken kann.|
-|DMSRechnung|Nur für Dokumententypen 1 und 2 (Kreditorenrechnung/ -gutschrift): Wenn zu einer Kreditorenrechnung/ -gutschrift zusätzliche Daten (Rechnungsdaten wie z.B. Rech-nungsnummer, Zahlungsinformationen, Betrag, usw.) ins Rimo R5 importiert werden sollen, so werden diese Daten zum Import hier gespeichert.|
-|DMSKontierung|Nur für Dokumententypen 1 und 2 (Kreditorenrechnung/ -gutschrift): Wenn zu einer Kreditorenrechnung oder Kreditorengutschrift eine Kontierung im DMS Workflow er-folgte, so wird diese Kontierung in der Tabelle DMSKontierung gespeichert.|
-|DMSRemapping|Diese Tabelle wird wie folgt verwendet: Wenn das DMS Dokument aus der lokalen Dateiab-lage im Datenspeicher archiviert hat, erfolgt über diese Tabelle die Meldung der neuen DMS-ID. Rimo R5 bearbeitet diese Einträge regelmässig und synchronisiert die Dokumentent-links.|
+|[DMSImportLink](https://github.com/wwimmo/rimor5-dms-schnittstelle/blob/main/_staging%20area/DMSImportLink.md)|Zu jedem Dokument soll das DMS so viele Daten wie möglich bereits an Rimo R5 übermitteln, damit Rimo R5 das Dokument möglichst automatisiert im E-Dossier verlinken kann.|
+|[DMSRechnung](https://github.com/wwimmo/rimor5-dms-schnittstelle/blob/main/_staging%20area/DMSRechnung.md)|Nur für Dokumententypen 1 und 2 (Kreditorenrechnung/ -gutschrift): Wenn zu einer Kreditorenrechnung/ -gutschrift zusätzliche Daten (Rechnungsdaten wie z.B. Rech-nungsnummer, Zahlungsinformationen, Betrag, usw.) ins Rimo R5 importiert werden sollen, so werden diese Daten zum Import hier gespeichert.|
+|[DMSKontierung](https://github.com/wwimmo/rimor5-dms-schnittstelle/blob/main/_staging%20area/DMSKontierung.md)|Nur für Dokumententypen 1 und 2 (Kreditorenrechnung/ -gutschrift): Wenn zu einer Kreditorenrechnung oder Kreditorengutschrift eine Kontierung im DMS Workflow er-folgte, so wird diese Kontierung in der Tabelle DMSKontierung gespeichert.|
+|[DMSRemapping](https://github.com/wwimmo/rimor5-dms-schnittstelle/blob/main/_staging%20area/DMSRemapping.md)|Diese Tabelle wird wie folgt verwendet: Wenn das DMS Dokument aus der lokalen Dateiab-lage im Datenspeicher archiviert hat, erfolgt über diese Tabelle die Meldung der neuen DMS-ID. Rimo R5 bearbeitet diese Einträge regelmässig und synchronisiert die Dokumentent-links.|
 
 ![Staging Schema](https://github.com/wwimmo/rimor5-dms-schnittstelle/blob/main/_grafiken/dmsstagingschema.png)
 
