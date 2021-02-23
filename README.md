@@ -9,7 +9,7 @@ Ab Rimo R5 Version 5.0
 ## E-Dossier
 Als «E-Dossier» wird im Rimo R5 sämtliche Funktionalität im Zusammenhang mit Dokumenten verstanden.
 
-[E-Dossier Konzept]<E-Dossier/E-Dossier.md>
+[E-Dossier Konzept](E-Dossier/E-Dossier.md>)
 
 
 ## Ablageprozesse der DMS Schnittstelle
