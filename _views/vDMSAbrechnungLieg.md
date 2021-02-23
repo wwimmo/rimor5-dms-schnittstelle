@@ -1,5 +1,4 @@
 # DBA.vDMSAbrechnungLieg 
-Diese View enthält eine Liste aller Nebenkostenabrechnungen mit Zuordnung zur Liegenschaft. Dokumente für Entität abrechhknk können zur Nebenkostenabrechnung abgelegt werden.
 
 |Spaltenname|Typ|Kommentar|
 |:----------|:--|:--------|
