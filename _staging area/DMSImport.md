@@ -1,4 +1,4 @@
-# DMSImport
+# DBA.DMSImport
 |Spaltenname|Typ|Zwingend|Beispiel|Kommentar|
 |:----------|:--|:-------|:-------|:--------|
 |dmsnr|varchar(100)|ja|936DA01F-9ABD-4D9D-80C7-02AF85C822A8|Eindeutige Identifikation eines Dokuments aus DMS|
