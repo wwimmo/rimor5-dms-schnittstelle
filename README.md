@@ -4,10 +4,7 @@ Offene DMS Schnittstelle für das Immobilien-ERP Rimo R5
 Dieses Dokument richtet sich an DMS Hersteller und Implementationspartner. Es enthält die Dokumentation über den Aufbau und Inhalt der universellen DMS Schnittstelle Rimo R5. Das Dokument dient als Implementationshilfe und Nachschlagewerk für DMS Hersteller und Implementationspartner.
 
 ## Rimo R5 Version
-Je Rimo R5 Version ist der Stand der Schnittstelle sowie die Anpassungen dokumentiert:
 
-[Rimo R5 Version 5.0](https://github.com/wwimmo/rimor5-dms-schnittstelle/tree/5.0)<br>
-[Rimo R5 Version 5.1 [beta]](https://github.com/wwimmo/rimor5-dms-schnittstelle/tree/5.1)<br>
 [Rimo R5 Version 5.2 [dev]](https://github.com/wwimmo/rimor5-dms-schnittstelle/tree/main)
 
 ## E-Dossier
