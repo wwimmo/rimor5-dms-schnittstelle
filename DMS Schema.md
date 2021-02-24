@@ -54,6 +54,6 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 |[vDMSRolleZuLieg](https://github.com/wwimmo/rimor5-dms-schnittstelle/blob/main/_views/vDMSRolleZuLieg.md)|In dieser View werden je Liegenschaft Benutzer in deren Rolle aufgeführt. Alternativ zu den Daten gemäss vDMSWorkflow können auch diese Rollendaten als Basis für Workflows verwendet werden|
 |[vDMSUnterhaltsart](https://github.com/wwimmo/rimor5-dms-schnittstelle/blob/main/_views/vDMSUnterhaltsart.md)|Liste aller Unterhaltsarten. Die Unterhaltsart kann zur dmskontierung im Rahmen der technischen Verwaltung eingetragen werden|
 |[vDMSVerwaltung](https://github.com/wwimmo/rimor5-dms-schnittstelle/blob/main/_views/.vDMSVerwaltung.md)|Liste aller Verwaltungen|
-|[vDMSWorkflow](https://github.com/wwimmo/rimor5-dms-schnittstelle/blob/main/_views/vDMSWorkflow.md)|Liste aller Fibus mit Info des Workflows für Kreditorenrechnungen (Visum1-3)|
+|[vDMSWorkflow](https://github.com/wwimmo/rimor5-dms-schnittstelle/blob/main/_views/vDMSWorkflow.md)|Liste aller Fibus (inkl. Konsolidierungsbuchhaltungen) mit Info des Workflows für Kreditorenrechnungen (Visum1-3)|
 |[vDMSZahlungscode](https://github.com/wwimmo/rimor5-dms-schnittstelle/blob/main/_views/vDMSZahlungscode.md)|Liste aller möglichen Zahlungscode. Ein Zahlungscode kann alternativ zum Fälligkeitsdatum zur dmsrechnung angegeben werden|
 |[vDMSZahlverbKredi](https://github.com/wwimmo/rimor5-dms-schnittstelle/blob/main/_views/vDMSZahlverbKredi%2Cmd)|Liste aller Zahlverbindungen zu Kreditoren|
