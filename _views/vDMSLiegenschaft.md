@@ -18,6 +18,8 @@
 |verwaltnr|integer||
 |verwaltbezeichnung|varchar(30)||
 |fibunr|integer||
+|steg|char(1)|
+|mwststatus|char(1)|
 |beschreibung|long varchar||
 |entityname|varchar(50)||
 |dmsid|integer||
