@@ -18,3 +18,4 @@
 |standbuchtx2|varchar(50)||
 |mwst|integer||
 |mwstopt|integer||
+|sammelkonto|integer||
