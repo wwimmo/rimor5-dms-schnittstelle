@@ -3,7 +3,7 @@ Ab Rimo R5 Version 5.0 hat der Anwender die Möglichkeit im Rimo R5 zu sämtlich
 Die DMS Schnittstelle ist ab Version 5.0 komplett in der E-Dossier Funktionalität integriert.
 Ein DMS wird daher aus Sicht Rimo R5 als «alternativen Dokumentenspeicher» verstanden.
 
-![E-Dossier-Konzept](https://github.com/wwimmo/rimor5-dms-schnittstelle/blob/main/_grafiken/edossier.png)
+![E-Dossier-Konzept](/_grafiken/edossier.png)
 
 *Grün: Ein Mietvertrag ist im DMS und in der lokalen Dateiablage gleichzeitig gespeichert*<br>
 *Gelb: Ein Foto zu einem Mietobjekt ist nur in der lokalen Dateiablage gespeichert*<br>
