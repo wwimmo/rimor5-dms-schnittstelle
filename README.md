@@ -24,8 +24,8 @@ II) E-Dossier --> DMS
 Im Rimo R5 kann ein Dokument via URL aufgerufen werden.
 Dazu wird eine **Basis-URL** und ein Parameter für die **eindeutige Dokumentenidentifiaktion** verwendet.
 
-Beispiel<br>
-[https://DMSsrv04/dokumentenspeicher/jsaklsfjdlsfas-dfsjsijop23om&p=v/DMSnr=**12345-45678-abcde-fghij**]()
+Beispiel (Docuware)<br>
+[https://DMSsrv04/jsaklsfjdlsfas-dfsjsijop23om&DocID=**12345-45678-abcde-fghij**]()
 
 ## Datenbank Zugriff für DMS Systeme
 Der Datenbankzugriff kann via ODBC erfolgen. Je nach Datenbank Rimo R5 müssen die entsprechenden ODBC Treiber verwendet werden:
