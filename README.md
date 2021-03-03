@@ -5,9 +5,11 @@ Dieses Dokument richtet sich an DMS Hersteller und Implementationspartner. Es en
 
 ## Rimo R5 Version
 
+[5.2](https://github.com/wwimmo/rimor5-dms-schnittstelle/tree/main)<br>
+
+History (siehe auch Branches)<br>
 [5.0](https://github.com/wwimmo/rimor5-dms-schnittstelle/tree/5.0) *released*<br>
 [5.1](https://github.com/wwimmo/rimor5-dms-schnittstelle/tree/5.1) *released als beta*<br>
-[5.2](https://github.com/wwimmo/rimor5-dms-schnittstelle/tree/main) *in Entwicklung*<br>
 
 ## E-Dossier
 Als «E-Dossier» wird im Rimo R5 sämtliche Funktionalität im Zusammenhang mit Dokumenten verstanden.
