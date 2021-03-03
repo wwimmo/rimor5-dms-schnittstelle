@@ -9,7 +9,7 @@ Dieses Dokument richtet sich an DMS Hersteller und Implementationspartner. Es en
 
 
 *History:<br>*
-*[5.1](https://github.com/wwimmo/rimor5-dms-schnittstelle/tree/5.1) (released als beta)<br>*
+*[5.1](https://github.com/wwimmo/rimor5-dms-schnittstelle/tree/5.1) (released)<br>*
 *[5.0](https://github.com/wwimmo/rimor5-dms-schnittstelle/tree/5.0) (released)<br>*
 
 ## E-Dossier
