@@ -41,7 +41,7 @@
 |persnr|integer|||Personennummer<br>Für Entitäten: person|
 |prodreportid|integer|||ReportID<br>Für Entitäten: archivreport|
 |produserid|varchar(20)|||BenutzerID<br>Für Entitäten: produsers|
-|fehlercode|integer|||Fehlercode|
+|fehlercode|integer|||Fehler gemäss [Fehlercodeliste](/_staging%20area/fehlercodes.md)|
 |lnkvstatus|integer|||Linkstatusnummer|
 |erfuser|varchar(20)|||Erfassungsuser|
 |erfdat|timestamp|||Erfassungsdatum|
