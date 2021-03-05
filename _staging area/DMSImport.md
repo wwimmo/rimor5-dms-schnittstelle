@@ -10,7 +10,7 @@
 |fibunr|integer|||Legacyfeld – wird nicht mehr aktiv verwendet.|
 |kredinr|integer|||Legacyfeld – wird nicht mehr aktiv verwendet.|
 |verwaltnr|integer|||Legacyfeld – wird nicht mehr aktiv verwendet.|
-|fehlercode|integer|||Wird von Rimo R5 abgefüllt. Gemäss Fehlercodeliste.|
+|fehlercode|integer|||Wird von Rimo R5 abgefüllt. Gemäss [Fehlercodeliste](/_staging%20area/fehlercodes.md).|
 |erfuser|varchar(20)|||Erfassungsuser|
 |erfdat|timestamp|||Erfassungsdatum|
 |beauser|varchar(20)|||Letzer Bearbeitungsuser|
