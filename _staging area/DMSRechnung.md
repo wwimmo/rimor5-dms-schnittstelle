@@ -28,7 +28,7 @@ dmsnr|varchar(100)|ja|936DA01F-9ABD-4D9D-80C7-02AF85C822A8|Eindeutige Identifika
 |zahlverbindnr|integer|bedingt|1|Zahlverbindungsnummer aus Rimo R5 Zahlverbindungsstamm (View vDMSKreditorZahlverb)<br>zwingend für automatischen Import, wenn iban oder teilnehmernr oder
 |rspid|varchar(17)|bedingt|4.10108E+16|RS-PID für E-Rechnungssteller<br>zwingend für automatischen Import einer E-Rechnung
 |auftragsnr|integer||21|Auftragsnummer gemäss View vDMSAuftrag. Der Auftrag wird im Rimo R5 bei Rechnungsimport erledigt.
-|fehlercode|integer|||Wird von Rimo R5 abgefüllt. Gemäss Fehlercodeliste.
+|fehlercode|integer|||Wird von Rimo R5 abgefüllt. Gemäss  [Fehlercodeliste](/_staging%20area/fehlercodes.md)e.
 |erfuser|varchar(20)|||Erfassungsuser
 |erfdat|timestamp|||Erfassungsdatum
 |beauser|varchar(20)|||Letzer Bearbeitungsuser
