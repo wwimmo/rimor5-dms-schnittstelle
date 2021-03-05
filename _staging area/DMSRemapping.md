@@ -9,7 +9,7 @@
 |mapaktion|integer|ja|1|Aktion für Rimo R5:# DBA.dmsremapping<br>1 = Remapping|
 |bezeichnung|varchar(50)||Mietvertrag Hans Muster|Bezeichnung des Dokuments im DMS|
 |verarbstatus|integer|ja|0|Verarbeitungsstatus<br>0 = bereit zum Remapping<br>1 = in Arbeit<br>2 = erfolgreiches Remapping<br>-2 = fehlerhaftes Remapping|
-|fehlercode|integer|||Wird von Rimo R5 abgefüllt. Gemäss Fehlercodeliste|
+|fehlercode|integer|||Wird von Rimo R5 abgefüllt. Gemäss  [Fehlercodeliste](/_staging%20area/fehlercodes.md)|
 |erfuser|varchar(20)|||Erfassungsuser|
 |erfdat|timestamp|||Erfassungsdatum|
 |beauser|varchar(20)|||Letzer Bearbeitungsuser|
