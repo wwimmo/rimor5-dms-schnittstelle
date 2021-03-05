@@ -23,7 +23,7 @@
 |geraetenr|integer||698|Gerätenummer gemäss vDMSGeraet.<br>Wenn ein automatischer Unterhalt erfasst werden soll, so muss ein Gerät definiert werden.|
 |unterhaltsartnr|integer|1||Unterhaltsart gemäss vDMSUnterhaltsart|
 |kurzbez|varchar(40)|Hauswartung||Kurzbezeichnung des Un-terhalts|
-|fehlercode|integer|||Wird von Rimo R5 abgefüllt. Gemäss Fehlercodeliste|
+|fehlercode|integer|||Wird von Rimo R5 abgefüllt.  [Fehlercodeliste](/_staging%20area/fehlercodes.md)|
 |erfuser|varchar(20)|||Erfassungsuser|
 |erfdat|timestamp|||Erfassungsdatum|
 |beauser|varchar(20)|||Letzer Bearbeitungsuser|
