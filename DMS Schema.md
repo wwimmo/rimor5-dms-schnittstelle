@@ -12,6 +12,8 @@ Sämtliche Tabellen sind dem Owner DBA zugewiesen.
 
 ![Staging Schema](/_grafiken/dmsstagingschema.png)
 
+Die Datensätze der Staging Tabellen werden durch Rimo R5 verarbeitet. Im Fehlerfall wird ein [Fehlercode](/_staging%20area/fehlercodes.md) in das Feld .fehlercode der jeweiligen Staging Tabelle geschrieben.
+
 # Views
 Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit Rimo R5 spezifischen Daten zu versehen. Je mehr Daten den Dokumenten im DMS bereits zugeordnet sind, desto automatisierter kann seitens Rimo R5 das Dokument im E-Dossier verlinkt werden. Sämtliche Views sind dem Owner DBA zugewiesen.
 
