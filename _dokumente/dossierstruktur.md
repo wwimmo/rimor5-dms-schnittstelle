@@ -1,20 +1,5 @@
 # Dossierstruktur
 
-Die Dokumententypen sind im Rimo R5 immer zu bestimmten Entitäten verknüpft und auch nur zu verknüpften Entitäten zugelassen.
-Je Entität sind die Dokumententypen zur Ansicht für die Anwender in Gruppen strukturiert. Die Gruppen sind jedoch nicht für die DMS Schnittstelle relevant. 
-
-## Entitäten
-Zu folgenden Entitäten können im Rimo R5 Dokumente abgelegt werden.
-Folgende Dokumententypen können zu allen Dokumenten verlinkt werden:
-- grösser/gleich 99999
-- 3 Bild
-- 4 Audio
-- 5 Video
-- 6 Dokumentation
-- 87 Aktennotiz
-
-Alle anderen Dokumententypen können nur zu ausgewählten Entitäten gemäss untenstehender Dokumentation zugewiesen werden.
-
 #### Die Hauptentitäten zur Dokumentenablage
 *Diese Entitäten werden in den meisten Fällen für die Dokumentenablage verwendet. 
 Wir empfehlen grundsätzlich nur mit diesen Ablagedossiers zu arbeiten. 
