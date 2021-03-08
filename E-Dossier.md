@@ -1,3 +1,5 @@
+# E-Dossier
+
 Als «E-Dossier» wird im Rimo R5 sämtliche Funktionalität im Zusammenhang mit Dokumenten verstanden.
 Ab Rimo R5 Version 5.0 hat der Anwender die Möglichkeit im Rimo R5 zu sämtlichen relevanten Entitäten Dokumente z.B. per drag&drop hinzuzufügen. Die Dateien werden zentral in einem vom Rimo R5 verwalteten Dateifolder auf dem Dateisystem gespeichert.
 Die DMS Schnittstelle ist ab Version 5.0 komplett in der E-Dossier Funktionalität integriert.
