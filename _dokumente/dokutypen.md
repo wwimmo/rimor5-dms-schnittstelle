@@ -1,12 +1,6 @@
 # Dokumententypen
 
-Im Rimo R5 ist für jedes im E-Dossier abgelegte/verlinkte Dokument ein Typ notwendig. Es ist zwingend, dass im DMS die Dokumententypen gemäss Rimo R5 übernommen oder gemappt werden.
-Die Dokumententypen sind wie folgt strukturiert:
-
-- 1-999<br>allgemeine Dokumententypen. Diese Dokumententypen sind auf allen Rimo R5 Datenbanken identisch.
-- 1000-9999<br>individuelle Dokumententypen. Diese können von individuell pro Kunde vorkommen.
-- 99999+<br>Rimo R5 Reports. In der Regel werden diese also mit Ablageprozess B) archiviert. 
-
+## allgemeine Dokumententypen
 
 |DmsDokutypNr|Bezeichnung|
 |-|-|
@@ -124,8 +118,10 @@ Die Dokumententypen sind wie folgt strukturiert:
 |120|Anmeldeformular Nachmieter (leer)|
 |999|Mieterdossier|
 
-*Dokumententypen der Reports Rimo R5*
+## individuelle Dokumententypen
+*gemäss kundenindividueller Definition
 
+## Dokumententypen der Reports Rimo R5
 |DmsDokutypNr|Bezeichnung|
 |-|-|
 |99999|Alte Auswertungen|
