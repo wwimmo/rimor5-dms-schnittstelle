@@ -46,7 +46,7 @@ Eine detaillierte Dokumentation der Tabellen und Views ist im Abschnitt [DMS Sch
 ## Dokumententypen
 Die DMS Schnittstelle verwendet einen definierten Katalog von Dokumententypen. Für eine möglichst automatisierte Verarbeitung der Dokumente ist die Angabe des Dokumententyps zu einem Dokument zwingend. Die Liste der möglichen Dokumententypen wird jeweils mit jeder Schnittstellenversion durch W&W veröffentlicht.
 
-[DMS Dokutypen.xlsx](/_dokumente/DMS%20Dokutypen.xlsx)
+[Dokumententypen](Dokumententypen.md)
 
 ## DMS Schema
 Dem User DMS stehen in der Rimo R5 Datenbank Tabellen mit Schreibrechten sowie Views mit Leserechten zur Verfügung.
