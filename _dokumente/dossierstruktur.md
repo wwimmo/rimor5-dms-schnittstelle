@@ -1,24 +1,6 @@
 # Dossierstruktur
 
-Die Dokumententypen sind im Rimo R5 immer zu bestimmten Entitäten verknüpft und auch nur zu verknüpften Entitäten zugelassen.
-Je Entität sind die Dokumententypen zur Ansicht für die Anwender in Gruppen strukturiert. Die Gruppen sind jedoch nicht für die DMS Schnittstelle relevant.
-<br>
-Folgende Dokumententypen können zu allen Dokumenten verlinkt werden:
-- grösser/gleich 99999
-- 3 Bild
-- 4 Audio
-- 5 Video
-- 6 Dokumentation
-- 87 Aktennotiz
-
-
-## Die Hauptentitäten zur Dokumentenablage
-Diese Entitäten werden in den meisten Fällen für die Dokumentenablage verwendet. 
-Wir empfehlen grundsätzlich nur mit diesen Ablagedossiers zu arbeiten. 
-Wenn Sie eine detailliertere Ablagestruktur wünschen, können Sie die Dokumente auch zu den weiter unten aufgeführten Entitäten ablegen.
-
-#### Liegenschaft (lieg)
-*Dokumente zu einer Liegenschaft*
+## Liegenschaft (lieg)
 |Gruppe|DMSDokutypNr|Bezeichnung|
 |-|-|-|
 |Auswertungen|>= 99999|Reports
@@ -70,8 +52,7 @@ Wenn Sie eine detailliertere Ablagestruktur wünschen, können Sie die Dokumente
 ||100|Werkvertrag
 ||111|Verträge / Vereinbarungen intern
 
-#### Objekt (objekt)
-*Dokumente zu einem Objekt/einer Miet- oder STWEG-Einheit*
+## Objekt (objekt)
 |Gruppe|DMSDokutypNr|Bezeichnung|
 |-|-|-|
 |Auswertungen|>= 99999|Reports
@@ -106,8 +87,7 @@ Medien|3|Bild
 ||4|Video
 ||5|Audio
 
-#### Mieter (mieter)
-*Dokumente zu einem Mieter/STWEG-Eigentümer*
+## Mieter (mieter)
 |Gruppe|DMSDokutypNr|Bezeichnung|
 |-|-|-|
 |Auswertungen|>= 99999|Reports
@@ -150,8 +130,7 @@ Verträge|7|Anfangsmietzinsformular
 Wohnungsübergaben|29|Abnahmeprotokoll
 
 
-#### Buchung Hauptbuch (fibubuchung)
-*Dokumente zu einer Buchung bzw. eine Beleg*
+## Buchung Hauptbuch (fibubuchung)
 |Gruppe|DMSDokutypNr|Bezeichnung|
 |-|-|-|
 Belege|1|Rechnung (eingehend)
@@ -159,8 +138,7 @@ Belege|1|Rechnung (eingehend)
 ||63|Buchungsbeleg
 
 
-#### Fibujahr (fibujahr)
-*Dokumente zu einer Buchhaltungsperiode / Buchhaltungsabschluss*
+## Fibujahr (fibujahr)
 |Gruppe|DMSDokutypNr|Bezeichnung|
 |-|-|-|
 |Auswertungen|>= 99999|Reports
@@ -176,5 +154,4 @@ Medien|3|Bild
 ||4|Video
 ||5|Audio
 
-## Weitere Entitäten
-*in Bearbeitung*
+
