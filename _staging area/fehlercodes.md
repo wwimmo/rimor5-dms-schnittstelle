@@ -84,4 +84,4 @@ Die Fehlercodes werden jeweils durch den Rimo R5 Import in die zugehörige Stagi
 |820|Das Dokument mit der angegebenen DMSLinkNr wurde schon exportiert/remapped||
 |830|Falscher Dokumentenzustand für diesen Dokumententyp (kleiner 2)||
 |840|Falsche Map-Aktion für dieses Remapping erfasst (ungleich 1)||
-
+|999|nicht definierter Fehler / unerwarteter Fehler (z.B. interner Datenbankfehler)||
