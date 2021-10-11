@@ -54,5 +54,6 @@ Dem User DMS stehen in der Rimo R5 Datenbank Tabellen mit Schreibrechten sowie V
 [DMS Schema](DMS%20Schema.md)
 
 ## Anwendungsbeispiele
-t.b.d
+
+[Automatischer Kreditoren-/ Personenabgleich](eg_krediabgleich.md)
 
