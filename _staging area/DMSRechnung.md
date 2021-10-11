@@ -41,18 +41,18 @@ dmsnr|varchar(100)|ja|936DA01F-9ABD-4D9D-80C7-02AF85C822A8|Eindeutige Identifika
 |Spaltenname|Typ|Zwingend|Beispiel|Kommentar|
 |:----------|:--|:-------|:-------|:--------|
 |extkredinr|integer||9647|Kreditorennummer gemäss Drittsystem
-|persartnr|integer||1|Art der Person gemäss vDMSPersart<br>zwingend für automatischen Import
-|vorname|varchar(30)||Hans|zwingend für automatischen Import, wenn natürliche Person
-|name|varchar(40)||Muster|zwingend für automatischen Import, wenn natürliche Person
-|nambezeichnung|varchar(40)|bedingt|Muster AG|Wenn PERSART = jur. Person<br>zwingend für automatischen Import, wenn juristische Person
+|persartnr|integer||1|Art der Person gemäss vDMSPersart
+|vorname|varchar(30)||Hans|zwingend für automatischen Import einer neuen Person, wenn natürliche Person
+|name|varchar(40)||Muster|zwingend für automatischen Import einer neuen Person, wenn natürliche Person
+|nambezeichnung|varchar(40)|bedingt|Muster AG|Wenn PERSART = jur. Person<br>zwingend für automatischen Import einer neuen Person, wenn juristische Person
 |namzusatz2|varchar(30)||Filiale Zürich|nur wenn juristische Person
 |namzusatz3|varchar(30)||Hauswartung|
-|strasse|varchar(30)|bedingt|Müsterliweg 1|Strasse und Nr.<br>zwingend für automatischen Import, wenn postfach leer
-|postfach|varchar(30)|bedingt|Postfach 1|Postfach, zwingend für automatischen Import, wenn strasse leer ist
-|plz|varchar(10)|bedingt|8000|Postleitzahl, zwingend für automatischen Import
-|ort|varchar(30)|bedingt|Zürich|Ortschaft, zwingend für automatischen Import
+|strasse|varchar(30)|bedingt|Müsterliweg 1|Strasse und Nr.<br>zwingend für automatischen Import einer neuen Person, wenn postfach leer
+|postfach|varchar(30)|bedingt|Postfach 1|Postfach, zwingend für automatischen Import einer neuen Person, wenn strasse leer ist
+|plz|varchar(10)|bedingt|8000|Postleitzahl, zwingend für automatischen Import einer neuen Person
+|ort|varchar(30)|bedingt|Zürich|Ortschaft, zwingend für automatischen Import einer neuen Person
 |kanton|varchar(5)||ZH|Kanton (Kürzel)
-|landkbez|varchar(2)|bedingt|CH|zwingend für automatischen Import
+|landkbez|varchar(2)|bedingt|CH|zwingend für automatischen Import einer neuen Person
 |telefon|varchar(60)||044 812 25 68|
 |mobile|varchar(60)||079 868 41 35|
 |email|varchar(254)||in-fo@musterag.ch|
