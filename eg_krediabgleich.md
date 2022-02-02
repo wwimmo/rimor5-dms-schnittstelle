@@ -39,7 +39,7 @@ Wurde kein Kreditor identifiziert, so wird automatisch ein neuer Kreditor erfass
 
 Wenn die Daten nicht komplett sind, erfolgt kein automatischer Import und eine Fehlermeldung wird ausgegeben.
 
-## Externe Kredorennummer
+## Externe Kreditorennummer
 Im Rimo R5 Kreditorenstamm kann die externe Kreditorennummer hier gespeichert werden:
 ![image](https://user-images.githubusercontent.com/34299234/136810162-906ddc29-7b5e-4eeb-92aa-3ed10c4efd99.png)
 
