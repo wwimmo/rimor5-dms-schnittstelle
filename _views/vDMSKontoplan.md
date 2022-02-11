@@ -11,8 +11,8 @@
 |periodeende|date||
 |ktobez1|varchar(30)||
 |ktobez2|varchar(30)||
-|mengezwing|integer||
-|mengeneinh|varchar(25)||
+|mengezwing|integer|0 = Mengenangabe optional, 1 = Menge zwingend|
+|mengeneinh|varchar(25)| NULL = Mengeneingabe nicht möglich, NOT NULL = Mengenangabe grundsätzlich möglich|
 |fuerhknk|integer|0 = Abweichendes HKNK Datum nicht erlaubt<br> 1 = Abweichendes HKNK Datum erlaubt <br> Bei Wer 1 gilt: Der Wert in der Importtabelle DMSKontierung.HKNKDAT darf vom Wert DMSKontierung.BUCHUNGDAT abweichen, bei Wert 0 darf das nicht abweichen.|
 |standbuchtx1|varchar(50)||
 |standbuchtx2|varchar(50)||
