@@ -35,11 +35,11 @@ Beispiel (Docuware)<br>
 
 ## Datenbank Zugriff für DMS Systeme
 Der Datenbankzugriff kann via ODBC erfolgen. Je nach Datenbank Rimo R5 müssen die entsprechenden ODBC Treiber verwendet werden:
-- SAP SQL Anywhere 17,		17.0.7.3382
+- SAP SQL Anywhere 17,		17.0.9.4913
 
-Dieser Benutzer hat auf der Datenbank Rimo R5 folgende Rechte: 
+Der Benutzer DMS hat auf der Datenbank Rimo R5 folgende Rechte: 
 
-- Schreibrechte auf Tabellen mit Präfix: "DMS"
+- Schreibrechte auf einige Tabellen mit Präfix: "DMS" (siehe [DMS Schema](DMS%20Schema.md)) 
 - Leserechte auf Views mit Präfix: "vDMS"
 
 Eine detaillierte Dokumentation der Tabellen und Views ist im Abschnitt [DMS Schema](DMS%20Schema.md) dokumentiert.
