@@ -20,30 +20,30 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 |View|Beschreibung|
 |-|-|
 |[vDMSAbrechnungLieg](/_views/vDMSAbrechnungLieg.md)|Diese View enthält sämtliche Adressen als String mit der jeweiligen Verwendung im Rimo R5. Hiermit können z.B. eingehende Dokumente den Absendern im Rimo R5 zugewiesen werden| 
-|[vDMSAdresseZuEntity](/_views/vDMSAdresseZuEntity.md)|Diese View enthält sämtliche Adressen als String mit der jeweiligen Verwendung im Rimo R5Hiermit können z.B. eingehende Dokumente den Absendern im Rimo R5 zugewiesen werden|
-|[vDMSAuftrag](/_views/vDMSAuftrag.md)|Diese View enthält eine Liste mit sämtlichen Aufträgen. Die Auftragsnummer gemäss dieser View kann zu einer Rechnung in der Tabelle dmsrechnung.auftragsnr mitgeleifert werden, damit Rimo R5 den offenen Auftrag erledigen kann|
-|[vDMSBelegIDzuEntity](/_views/vDMSBelegIDzuEntity.md)|Diese View enthält alle bereits verbuchten Belege mit manueller Belegnummer im Rimo R5. mit diesen Daten können z.B. nachträglich gescannte Belegdokumente, welche eine Belegnummer enthalten den korrekten Buchungen zugewiesen werden|
+|[vDMSAdresseZuEntity](/_views/vDMSAdresseZuEntity.md)|Diese View enthält sämtliche Adressen als String mit der jeweiligen Verwendung im Rimo R5. Hiermit können z.B. eingehende Dokumente den Absendern im Rimo R5 zugewiesen werden|
+|[vDMSAuftrag](/_views/vDMSAuftrag.md)|Diese View enthält eine Liste mit sämtlichen Aufträgen inkl. Auftrags-Positionen und -Kontierungen. Die Auftragsnummer gemäss dieser View kann zu einer Rechnung in der Tabelle dmsrechnung.auftragsnr mitgeliefert werden, damit Rimo R5 den offenen Auftrag erledigen kann|
+|[vDMSBelegIDzuEntity](/_views/vDMSBelegIDzuEntity.md)|Diese View enthält alle bereits verbuchten Belege mit manueller Belegnummer im Rimo R5. Mit diesen Daten können z.B. nachträglich gescannte Belegdokumente, welche eine Belegnummer enthalten den korrekten Buchungen zugewiesen werden|
 |[vDMSBuchungsHistory](/_views/vDMSBuchungsHistory.md)|Diese View enthält die Buchungshistory der letzten drei Jahre. Hiermit können z.B. bereits verwendete Buchungstexte auf bestimmten Konti ermittelt und dem Benutzer zur Kontierung vorgeschlagen werden|
 |[vDMSDokument](/_views/vDMSDokument.md)|Diese View enthält eine Liste sämtlicher ursprünglich von Rimo R5 erstellten und vom DMS zurückgemeldeten Dokumente, die erfolgreich via Remapping (dmsremapping) von Rimo R5 verarbeitet wurden|
 |[vDMSDokumententLinks](/_views/vDMSDokumentenLinks.md)|Diese View enthält eine Liste von Verlinkungen sämtlicher ursprünglich von Rimo R5 erstellten und vom DMS zurückgemeldeten Dokumente, die erfolgreich via Remapping (dmsremapping) von Rimo R5 verarbeitet wurden. Die View korrespondiert mit allen Dokumenten gemäss vDMSDokument|
 |[vDMSDokuTyp](/_views/vDMSDokuTyp.md)|Diese View enthält eine Liste aller Dokumententypen, welche im Rimo R5 verfügbar sind. Jeder Dokumententyp wird je möglicher Zuordnung zu einer Rimo R5 Entität (entityname) in einer separaten Zeile nochmals aufgeführt|
 |[vDMSEigentuemer](/_views/vDMSEigentuemer.md)|Eine Liste aller Liegenschaftseigentümern im Rimo R5 zur Ablage von Dokumenten zu deren Dossier|
-|[vDMSEmailZuEntity](/_views/vDMSEmailZuEntity.m)|Eine Liste sämtlicher im Rimo R5 vorhandenen E-Mail Adressen und deren Zuordnung zu Entitäten und Stammdaten. Mittels dieser View können z.B. erhaltene E-Mails automatisch den Rimo R5 Daten zugewiesen werden|
+|[vDMSEmailZuEntity](/_views/vDMSEmailZuEntity.md)|Eine Liste sämtlicher im Rimo R5 vorhandenen E-Mail Adressen und deren Zuordnung zu Entitäten und Stammdaten. Mittels dieser View können z.B. erhaltene E-Mails automatisch den Rimo R5 Daten zugewiesen werden|
 |[vDMSExportDokument](/_views/vDMSExportDokument.md)|n dieser View werden sämtliche Dokumente angezeigt, welche von Rimo R5 erstellt und dem DMS zur Archivierung bereit stehen.Der physische Dokumentelink setzt sich aus den Spalten pfad und dateiname zusammen. Dokumente, welche aus dieser View erfolgreich im DMS archiviert wurden, müssen via dmsremapping an Rimo R5 zurückgemeldet werden, damit Rimo R5 diese Dokumente korrekt neu verlinken kann|
 |[vDMSFibubuchung](/_views/vDMSFibubuchung.md)|Eine Liste sämtlicher Fibubuchungen aus Rimo R5. Aufgrung der hohen möglichen Datenmenge sollte diese View bei der Abfrage wenn möglich stark eingegrenzt werden|
 |[vDMSFibujahr](/_views/vDMSFibujahr.md)|Eine Liste sämtlicher Buchhaltungsperioden zur Ablage von z.B. Abschlussdokumenten|
 |[vDMSFinanzbuchhaltung](/_views/vDMSFinanzbuchhaltung.md)|Diese View enthält eine Liste sämtlicher Finanzbuchhaltungen (Fibus) gemäss Rimo R5 Stammdaten|
 |[vDMSGenossenschaft](/_views/vDMSGenossenschaft.md)|Eine Liste aller Genossenschaften mit Zuordnung zur Finanzbuchhaltung|
 |[vDMSGenossenschafter](/_views/vDMSGenossenschafter.md)|Eine Liste aller Genossenschafter|
-|[vDMSGeraet](/_views/vDMSGeraet.md)|Diese View zeigt sämtliche Geräte gemäss der technischen Verwaltung im Rimo R5. Die Geräte können anhand der Angaben in der Spalte subgearetvon in eine Hierarchische Struktur gebracht werden|
+|[vDMSGeraet](/_views/vDMSGeraet.md)|Diese View zeigt sämtliche Geräte gemäss der technischen Verwaltung im Rimo R5. Die Geräte können anhand der Angaben in der Spalte subgearetvon in eine hierarchische Struktur gebracht werden|
 |[vDMSHauswart](/_views/vDMSHauswart.md)|Eine Liste aller Hauswarte inkl. deren Adresse|
 |[vDMSHypothek](/_views/vDMSHypothek.md)|Diese View zeigt alle Hypotheken mit der Zuordnung zur Liegenschaft. die Angaben zum Kreditor sowie einer Zahlverbindung sind im Datenmodell berücksichtigt, aber aktuell im Rimo R5 noch nicht in Gebrauch|
 |[vDMSIBANZuEntity](/_views/vDMSIBANZuEntity.md)|Diese Liste zeigt alle im Rimo R5 vorhandenen IBAN und deren Zuordnung zu den Daten. In dieser Liste kann nach einer IBAN gesucht und die zugeordneten Daten ermitteln, um z.B. Dokumente mit IBAN zu den richtigen Daten im Rimo R4 abgelegt werden|
 |[vDMSKontierungsregel](/_views/vDMSKontierungsregel.md)|In dieser View sind alle definierten Kontierungsregeln mit Referenz-IDs (referenzid) aufgelistet. Die Kontierungsregeln können im Rimo R5 für definierte Geschäftsfälle konfiguriert werden und können im Kontierungsprozess als Vorlage wiederverwendet werden|
 |[vDMSKontoplan](/_views/vDMSKontoplan.md)|In dieser View sind alle im Rimo R5 zu bebuchenden Konti aufgeführt. Die verfügbarkeit der Konti wird gemäss Periode Beginn/Ende (periodebeginn/periodeende) definiert. Es dürfen nur Kontierungen via dmskontierung mitgegeben werden, welche gemäss Buchungsdatum (buchungdat) in die hier aufgeführte Periode passen|
-|[vDMSKredibuchung](/main/_views/vDMSKredibuchung.md)|Liste aller Kreditorenrechnngen gemäss Buchhaltung im Rimo R5|
+|[vDMSKredibuchung](/_views/vDMSKredibuchung.md)|Liste aller Kreditorenrechnngen gemäss Buchhaltung im Rimo R5|
 |[vDMSKreditor](/_views/vDMSKreditor.md)|Liste aller Kreditoren/Lieferanten|
-|[vDMSKreditorenrechnung](/_views/vDMSKreditorenrechnung.md)|In dieser View werden sämtliche im Rimo R5 verbuchten Kreditorenrechnungen aufgeführt, zu welchen Dokumente existieren. Hier erscheint z.B. auch das Zahlngsdatum (buchdatzlg), sobald die Rechnung via Rimo R5 bezahlt wurde|
+|[vDMSKreditorenrechnung](/_views/vDMSKreditorenrechnung.md)|In dieser View werden sämtliche im Rimo R5 verbuchten Kreditorenrechnungen aufgeführt, zu welchen Dokumente existieren. Hier erscheint z.B. auch das Zahlungsdatum (buchdatzlg), sobald die Rechnung via Rimo R5 bezahlt wurde|
 |[vDMSKreditorZahlverb](/_views/vDMSKreditorzahlverb.md)|Eine Liste sämtlicher Zahlverbindungen der Kreditoren mit erweiterten Personendaten der Kreditoren. Diese View eignet sich zur Identifikation eines Kreditore gemäss Rechnungssangaben|
 |[vDMSLiegenschaft](/_views/vDMSLiegenschaft.md)|Liste aller Liegenschaften|
 |[vDMSMieter](/_views/vDMSMieter.md)|Liste aller Mieter/STEG Eigentümer|
@@ -52,10 +52,11 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 |[vDMSMWSTCodes](/_views/vDMSMWSTCodes.md)|Liste aller möglichen MWST Codes im Rimo R5. Ein MWST Code muss bei einer Buchung inkl. MWST mit der dmskontierung angegeben werden|
 |[vDMSObjekt](/_views/vDMSObjekt.md)|Liste sämtlicher Objekte / Mieteinheiten / STEG-Einheiten|
 |[vDMSPersart](/_views/vDMSPersart.md)|Liste aller möglichen Personenarten. Die Personenart muss für den automatischen Kreditorenabgleich zur Neuerfassung einer Person im Kreditorenstamm zur dmsrechnung mitgegeben werden|
-|[vDMSRGVisumUser](n/_views/vDMSRGVisumUser.md)|In dieser View werden alle Benutzer von Rimo R5 dargestellt. Die Benutzer könen in Workflows (vDMSWorkflow) hinterlegt werden|
+|[vDMSRechnung](/_views/vDMSRechnung.md)|Liste aller Kreditorenrechnungen/ -gutschriften (Dokumententypen 1 und 2), welche in den Staging Tabellen DMSImport/DMSRechnung/DMSKontierung erfasst sind|
+|[vDMSRGVisumUser](/_views/vDMSRGVisumUser.md)|In dieser View werden alle Benutzer von Rimo R5 dargestellt. Die Benutzer könen in Workflows (vDMSWorkflow) hinterlegt werden|
 |[vDMSRolleZuLieg](/_views/vDMSRolleZuLieg.md)|In dieser View werden je Liegenschaft Benutzer in deren Rolle aufgeführt. Alternativ zu den Daten gemäss vDMSWorkflow können auch diese Rollendaten als Basis für Workflows verwendet werden|
 |[vDMSUnterhaltsart](/_views/vDMSUnterhaltsart.md)|Liste aller Unterhaltsarten. Die Unterhaltsart kann zur dmskontierung im Rahmen der technischen Verwaltung eingetragen werden|
 |[vDMSVerwaltung](/_views/.vDMSVerwaltung.md)|Liste aller Verwaltungen|
 |[vDMSWorkflow](/_views/vDMSWorkflow.md)|Liste aller Fibus mit Info des Workflows für Kreditorenrechnungen (Visum1-3)|
 |[vDMSZahlungscode](/_views/vDMSZahlungscode.md)|Liste aller möglichen Zahlungscode. Ein Zahlungscode kann alternativ zum Fälligkeitsdatum zur dmsrechnung angegeben werden|
-|[vDMSZahlverbKredi](/_views/vDMSZahlverbKredi%2Cmd)|Liste aller Zahlverbindungen zu Kreditoren|
+|[vDMSZahlverbKredi](/_views/vDMSZahlverbKredi.md)|Liste aller Zahlverbindungen zu Kreditoren|
