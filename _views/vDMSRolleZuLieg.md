@@ -10,6 +10,7 @@
 |mobile|varchar(40)||
 |rollennr|integer||
 |rollenbezeichnung|varchar(30)||
+|fibunr|integer||
 |liegnr|integer||
 |entityname|varchar(50)||
 |dmsid|integer||
