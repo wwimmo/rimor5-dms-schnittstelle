@@ -3,6 +3,7 @@
 |Spaltenname|Typ|Kommentar|
 |:----------|:--|:--------|
 |dmslinknr|integer||
+|laufnr|integer|Ab 5.2.7|
 |dateiname|varchar(100)||
 |pfad|varchar(500)||
 |archiv|integer||
