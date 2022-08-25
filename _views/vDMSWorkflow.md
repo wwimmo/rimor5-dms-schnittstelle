@@ -13,6 +13,7 @@
 |rgvisum1|varchar(30)||
 |rgvisum2|varchar(30)||
 |rgvisum3|varchar(30)||
+|rgvisum4|varchar(30)|neu ab 5.3.0|
 |verwaltungsbeginn|date||
 |verwaltungsende|date||
 |liegnr|integer||
