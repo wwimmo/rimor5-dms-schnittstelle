@@ -60,3 +60,9 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 |[vDMSWorkflow](/_views/vDMSWorkflow.md)|Liste aller Fibus mit Info des Workflows für Kreditorenrechnungen (Visum1-4)|
 |[vDMSZahlungscode](/_views/vDMSZahlungscode.md)|Liste aller möglichen Zahlungscode. Ein Zahlungscode kann alternativ zum Fälligkeitsdatum zur dmsrechnung angegeben werden|
 |[vDMSZahlverbKredi](/_views/vDMSZahlverbKredi.md)|Liste aller Zahlverbindungen zu Kreditoren|
+
+# Changelog
+|Datum|Tabelle/View|Änderung|
+|-|-|-|
+|24.08.2022|[vDMSWorkflow](/_views/vDMSWorkflow.md)|neue Spalte rgvisum4|
+|26.08.2022|[vDMSKreditorenrechnung](/_views/vDMSKreditorenrechnung.md)|neue Spalte zahlverbindnr|
