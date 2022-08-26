@@ -64,5 +64,5 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 # Changelog
 |Datum|Tabelle/View|Änderung|
 |-|-|-|
-|24.08.2022|[vDMSWorkflow](/_views/vDMSWorkflow.md)|neue Spalte rgvisum4|
+|25.08.2022|[vDMSWorkflow](/_views/vDMSWorkflow.md)|neue Spalte rgvisum4|
 |26.08.2022|[vDMSKreditorenrechnung](/_views/vDMSKreditorenrechnung.md)|neue Spalte zahlverbindnr|
