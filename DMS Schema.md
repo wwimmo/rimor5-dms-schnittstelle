@@ -29,7 +29,7 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 |[vDMSDokuTyp](/_views/vDMSDokuTyp.md)|Diese View enthält eine Liste aller Dokumententypen, welche im Rimo R5 verfügbar sind. Jeder Dokumententyp wird je möglicher Zuordnung zu einer Rimo R5 Entität (entityname) in einer separaten Zeile nochmals aufgeführt|
 |[vDMSEigentuemer](/_views/vDMSEigentuemer.md)|Eine Liste aller Liegenschaftseigentümern im Rimo R5 zur Ablage von Dokumenten zu deren Dossier|
 |[vDMSEmailZuEntity](/_views/vDMSEmailZuEntity.md)|Eine Liste sämtlicher im Rimo R5 vorhandenen E-Mail Adressen und deren Zuordnung zu Entitäten und Stammdaten. Mittels dieser View können z.B. erhaltene E-Mails automatisch den Rimo R5 Daten zugewiesen werden|
-|[vDMSExportDokument](/_views/vDMSExportDokument.md)|n dieser View werden sämtliche Dokumente angezeigt, welche von Rimo R5 erstellt und dem DMS zur Archivierung bereit stehen.Der physische Dokumentelink setzt sich aus den Spalten pfad und dateiname zusammen. Dokumente, welche aus dieser View erfolgreich im DMS archiviert wurden, müssen via dmsremapping an Rimo R5 zurückgemeldet werden, damit Rimo R5 diese Dokumente korrekt neu verlinken kann|
+|[vDMSExportDokument](/_views/vDMSExportDokument.md)|In dieser View werden sämtliche Dokumente angezeigt, welche von Rimo R5 erstellt und dem DMS zur Archivierung bereit stehen.Der physische Dokumentelink setzt sich aus den Spalten pfad und dateiname zusammen. Dokumente, welche aus dieser View erfolgreich im DMS archiviert wurden, müssen via dmsremapping an Rimo R5 zurückgemeldet werden, damit Rimo R5 diese Dokumente korrekt neu verlinken kann|
 |[vDMSFibubuchung](/_views/vDMSFibubuchung.md)|Eine Liste sämtlicher Fibubuchungen aus Rimo R5. Aufgrung der hohen möglichen Datenmenge sollte diese View bei der Abfrage wenn möglich stark eingegrenzt werden|
 |[vDMSFibujahr](/_views/vDMSFibujahr.md)|Eine Liste sämtlicher Buchhaltungsperioden zur Ablage von z.B. Abschlussdokumenten|
 |[vDMSFinanzbuchhaltung](/_views/vDMSFinanzbuchhaltung.md)|Diese View enthält eine Liste sämtlicher Finanzbuchhaltungen (Fibus) gemäss Rimo R5 Stammdaten|
@@ -68,3 +68,5 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 |25.08.2022|[vDMSWorkflow](/_views/vDMSWorkflow.md)|neue Spalte rgvisum4|Viertes Rechnungsvisum für Kreditorenworkflow|
 |26.08.2022|[vDMSKreditorenrechnung](/_views/vDMSKreditorenrechnung.md)|neue Spalte zahlverbindnr|Zusätzlich Zahlverbindung der Gutschriftsbank in vDMSKreditorenrechnung||
 |30.08.2022|[vDMSForderungsart](/_views/vDMSForderungsart.md)|neue View|DMS Schnittstelle mit Forderungsart erweitern|
+|30.08.2022|[DMSKontierung](/_staging%20area/DMSKontierung.md)|neue Spalte forderungsart|DMS Schnittstelle mit Forderungsart erweitern|
+|30.08.2022|[Fehlercode](/_staging%20area/fehlercodes.md)|neue Fehlercodes 504/505|DMS Schnittstelle mit Forderungsart erweitern|
