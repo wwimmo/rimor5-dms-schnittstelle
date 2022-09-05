@@ -33,7 +33,7 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 |[vDMSFibubuchung](/_views/vDMSFibubuchung.md)|Eine Liste sämtlicher Fibubuchungen aus Rimo R5. Aufgrung der hohen möglichen Datenmenge sollte diese View bei der Abfrage wenn möglich stark eingegrenzt werden|
 |[vDMSFibujahr](/_views/vDMSFibujahr.md)|Eine Liste sämtlicher Buchhaltungsperioden zur Ablage von z.B. Abschlussdokumenten|
 |[vDMSFinanzbuchhaltung](/_views/vDMSFinanzbuchhaltung.md)|Diese View enthält eine Liste sämtlicher Finanzbuchhaltungen (Fibus) gemäss Rimo R5 Stammdaten|
-|[vDMSForderungsart](/_views/vDMSForderungsart.md)|Eine Liste aller Forderungsarten mit Zulässigkeit für Mieter oder STEG-Eigentümer|
+|[vDMSForderungsart](/_views/vDMSForderungsart.md)|Eine Liste aller Forderungsarten mit der Angabe, ob sie für Mieter und/oder STEG-Eigentümer zulässig ist|
 |[vDMSGenossenschaft](/_views/vDMSGenossenschaft.md)|Eine Liste aller Genossenschaften mit Zuordnung zur Finanzbuchhaltung|
 |[vDMSGenossenschafter](/_views/vDMSGenossenschafter.md)|Eine Liste aller Genossenschafter|
 |[vDMSGeraet](/_views/vDMSGeraet.md)|Diese View zeigt sämtliche Geräte gemäss der technischen Verwaltung im Rimo R5. Die Geräte können anhand der Angaben in der Spalte subgearetvon in eine hierarchische Struktur gebracht werden|
