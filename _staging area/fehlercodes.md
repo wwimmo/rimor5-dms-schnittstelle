@@ -60,6 +60,8 @@ Die Fehlercodes werden jeweils durch den Rimo R5 Import in die zugehörige Stagi
 |501|Die Objekt-Nr. %d ist in der Liegenschaft %d nicht vorhanden||
 |502|Die Objekt-Nr. %d ist in der Liegenschaft %d annulliert||
 |503|Für die Objekt-Nr. %d existiert kein Mietfall mit der Mieter-Nr. %d in der Liegenschaft %d||
+|504|Die Angabe der Forderungsart ist nur zulässig für Kontierungen mit erfasster Mieternummer||
+|505|Die Kontierung enthält eine nicht zulässige Forderungsart (Miet- oder Steg-Liegenschaft)||
 |600|Der Auftrag mit der Nummer %d ist nicht vorhanden||
 |610|Das Gerät mit der Nummer %d ist in der Technischen Verwaltung nicht vorhanden||
 |620|Die Unterhaltsart-Nr. %d ist ungültig||
