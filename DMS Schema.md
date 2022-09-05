@@ -62,7 +62,8 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 |[vDMSZahlverbKredi](/_views/vDMSZahlverbKredi.md)|Liste aller Zahlverbindungen zu Kreditoren|
 
 # Changelog
-|Datum|Tabelle/View|Änderung|
-|-|-|-|
-|25.08.2022|[vDMSWorkflow](/_views/vDMSWorkflow.md)|neue Spalte rgvisum4|
-|26.08.2022|[vDMSKreditorenrechnung](/_views/vDMSKreditorenrechnung.md)|neue Spalte zahlverbindnr|
+|Datum|Tabelle/View|Änderung|Kommentar|
+|-|-|-|-|
+|25.08.2022|[vDMSWorkflow](/_views/vDMSWorkflow.md)|neue Spalte rgvisum4|Viertes Rechnungsvisum für Kreditorenworkflow|
+|26.08.2022|[vDMSKreditorenrechnung](/_views/vDMSKreditorenrechnung.md)|neue Spalte zahlverbindnr|Zusätzlich Zahlverbindung der Gutschriftsbank in vDMSKreditorenrechnung||
+|30.08.2022||neue View|DMS Schnittstelle mit Forderungsart erweitern|
