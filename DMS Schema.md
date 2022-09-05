@@ -69,4 +69,4 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 |26.08.2022|[vDMSKreditorenrechnung](/_views/vDMSKreditorenrechnung.md)|neue Spalte zahlverbindnr|Zusätzlich Zahlverbindung der Gutschriftsbank in vDMSKreditorenrechnung||
 |30.08.2022|[vDMSForderungsart](/_views/vDMSForderungsart.md)|neue View|DMS Schnittstelle mit Forderungsart erweitern|
 |30.08.2022|[DMSKontierung](/_staging%20area/DMSKontierung.md)|neue Spalte forderungsart|DMS Schnittstelle mit Forderungsart erweitern|
-|30.08.2022|[Fehlercode](/_staging%20area/fehlercodes.md)|neue Fehlercodes 504/505|DMS Schnittstelle mit Forderungsart erweitern|
+|30.08.2022|Liste der Fehlercodes ([Fehlercode](/_staging%20area/fehlercodes.md))|neue Fehlercodes 504/505|DMS Schnittstelle mit Forderungsart erweitern|
