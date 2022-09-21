@@ -22,6 +22,15 @@
 |mwststatus|char(1)|
 |verwaltungsartnr|integer||
 |verwaltartbezeichnung|varchar(30)||
+|verwvertragsnr|integer||
+|verwvertragsbezeichnung|varchar(30)||
+|verwvertragsart|varchar(100)||
+|auftraggebernr|integer||
+|auftraggeber|varchar(40)||
+|versicherungnr|integer||
+|inklgebaeudevers|char(1)||
+|policennummer|varchar(30)||
+|versicherungsgesellschaft|varchar(30)||
 |beschreibung|long varchar||
 |entityname|varchar(50)||
 |dmsid|integer||
