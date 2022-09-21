@@ -71,4 +71,4 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 |30.08.2022|[DMSKontierung](/_staging%20area/DMSKontierung.md)|neue Spalte forderungsart|DMS Schnittstelle mit Forderungsart erweitern|
 |30.08.2022|Liste der Fehlercodes ([Fehlercode](/_staging%20area/fehlercodes.md))|neue Fehlercodes 504/505|DMS Schnittstelle mit Forderungsart erweitern|
 |20.09.2022|[DMSRemapping](/_staging%20area/DMSRemapping.md)|neue Spalten remapdmslink, remaplaufnr|Nach der Synchronisierung der lokalen Ablage mit dem DMS erstellte  Dokumentenlinks remappen|
-|21.09.2022|[vDMSLiegenschaft](/_views/vDMSLiegenschaft.md)|neue Spalten|Zusätzlich Verwaltungsvertrag- und Versicherungs-Einträge zur Liegenschaft|
+|21.09.2022|[vDMSLiegenschaft](/_views/vDMSLiegenschaft.md)|neue Spalten|Zusätzlich Verwaltungsvertrag- und Versicherungs-Informationen zur Liegenschaft|
