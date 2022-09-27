@@ -28,6 +28,7 @@ dmsnr|varchar(100)|ja|936DA01F-9ABD-4D9D-80C7-02AF85C822A8|Eindeutige Identifika
 |zahlverbindnr|integer|bedingt|1|Zahlverbindungsnummer aus Rimo R5 Zahlverbindungsstamm (View vDMSKreditorZahlverb)<br>zwingend für automatischen Import, wenn iban oder teilnehmernr oder
 |rspid|varchar(17)|bedingt|4.10108E+16|RS-PID für E-Rechnungssteller<br>zwingend für automatischen Import einer E-Rechnung
 |auftragsnr|integer||21|Auftragsnummer gemäss View vDMSAuftrag. Der Auftrag wird im Rimo R5 bei Rechnungsimport erledigt.
+|ohnezahlung|char(1)||Y|Die Rechnung direkt nach dem Import auf Status "nicht zahlen" setzen (bei "Y", Default = "N"). Funktionalität aktuell noch nicht immplementiert
 |fehlercode|integer|||Wird von Rimo R5 abgefüllt. Gemäss  [Fehlercodeliste](/_staging%20area/fehlercodes.md).
 |erfuser|varchar(20)|||Erfassungsuser
 |erfdat|timestamp|||Erfassungsdatum
@@ -42,6 +43,7 @@ dmsnr|varchar(100)|ja|936DA01F-9ABD-4D9D-80C7-02AF85C822A8|Eindeutige Identifika
 |:----------|:--|:-------|:-------|:--------|
 |extkredinr|integer||9647|Kreditorennummer gemäss Drittsystem
 |persartnr|integer||1|Art der Person gemäss vDMSPersart
+|anredenr|integer||2|Anrede der Person gemäss vDMSAnrede. Funktionalität aktuell noch nicht immplementiert
 |vorname|varchar(30)||Hans|zwingend für automatischen Import einer neuen Person, wenn natürliche Person
 |name|varchar(40)||Muster|zwingend für automatischen Import einer neuen Person, wenn natürliche Person
 |nambezeichnung|varchar(40)|bedingt|Muster AG|Wenn PERSART = jur. Person<br>zwingend für automatischen Import einer neuen Person, wenn juristische Person
