@@ -75,5 +75,5 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 |21.09.2022|[vDMSLiegenschaft](/_views/vDMSLiegenschaft.md)|neue Spalten|Zusätzlich Verwaltungsvertrag- und Versicherungs-Informationen zur Liegenschaft|
 |26.09.2022|[DMSImport](/_staging%20area/DMSImport.md)|neue Spalte beschreibung|Übernahme einer Dokumenten-Beschreibung beim DMS Dokumentenimport|
 |27.09.2022|[DMSRechnung](/_staging%20area/DMSRechnung.md)|neue Spalte ohnezahlung|Importierte Rechnung direkt auf "nicht zahlen" setzten (vorbereitende DB-Erweiterung)|
-|27.09.2022|[DMSRechnung](/_staging%20area/DMSRechnung.md) [vDMSAnrede](/_views/vDMSAnrede.md)|neue Spalte anredenr, neue View|Anrede für automatischen Kreditorenabgleich (vorbereitende DB-Erweiterung)
+|27.09.2022|[DMSRechnung](/_staging%20area/DMSRechnung.md) und [vDMSAnrede](/_views/vDMSAnrede.md)|neue Spalte anredenr, neue View|Anrede für automatischen Kreditorenabgleich (vorbereitende DB-Erweiterung)
 |27.09.2022|[vDMSFinanzbuchhaltung](/_views/vDMSFinanzbuchhaltung.md)|neue Spalten banknrkredi, iban, qriban|Zusätzliche Info zu Kreditoren Zahlungsbank|
