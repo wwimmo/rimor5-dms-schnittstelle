@@ -72,3 +72,7 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 |30.08.2022|Liste der Fehlercodes ([Fehlercode](/_staging%20area/fehlercodes.md))|neue Fehlercodes 504/505|DMS Schnittstelle mit Forderungsart erweitern|
 |20.09.2022|[DMSRemapping](/_staging%20area/DMSRemapping.md)|neue Spalten remapdmslink, remaplaufnr|Nach der Synchronisierung der lokalen Ablage mit dem DMS erstellte  Dokumentenlinks remappen|
 |21.09.2022|[vDMSLiegenschaft](/_views/vDMSLiegenschaft.md)|neue Spalten|Zusätzlich Verwaltungsvertrag- und Versicherungs-Informationen zur Liegenschaft|
+|26.09.2022|[DMSImport](/_staging%20area/DMSImport.md)|neue Spalte beschreibung|Übernahme einer Dokumenten-Beschreibung beim DMS Dokumentenimport|
+|27.09.2022|[DMSRechnung](/_staging%20area/DMSRechnung.md)|neue Spalte ohnezahlung|Importierte Rechnung direkt auf "nicht zahlen" setzten (vorbereitende DB-Erweiterung)|
+|27.09.2022|[DMSRechnung](/_staging%20area/DMSRechnung.md)|neue Spalte anredenr, neue View|Anrede für automatischen Kreditorenabgleich (vorbereitende DB-Erweiterung)
+|27.09.2022|[vDMSFinanzbuchhaltung](/_views/vDMSFinanzbuchhaltung.md)|neue Spalten banknrkredi, iban, qriban|Zusätzliche Info zu Kreditoren Zahlungsbank|
