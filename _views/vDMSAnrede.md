@@ -4,5 +4,5 @@
 |:----------|:--|:--------|
 |anredenr|integer||
 |anrede|varchar(20)||
-|briefanredegen|varchar(60)||
+|briefanrede|varchar(60)||
 |geschlecht|varchar(30)||
