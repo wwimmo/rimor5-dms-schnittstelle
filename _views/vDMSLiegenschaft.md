@@ -31,6 +31,8 @@
 |inklgebaeudevers|char(1)||
 |policennummer|varchar(30)||
 |versicherungsgesellschaft|varchar(30)||
+|beginnperiodehknk|date||
+|endeperiodehknk|date||
 |beschreibung|long varchar||
 |entityname|varchar(50)||
 |dmsid|integer||
