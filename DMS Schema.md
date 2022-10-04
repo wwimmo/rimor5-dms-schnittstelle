@@ -78,3 +78,4 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 |27.09.2022|[DMSRechnung](/_staging%20area/DMSRechnung.md) und [vDMSAnrede](/_views/vDMSAnrede.md)|neue Spalte anredenr, neue View|Anrede für automatischen Kreditorenabgleich (vorbereitende DB-Erweiterung)
 |27.09.2022|[vDMSFinanzbuchhaltung](/_views/vDMSFinanzbuchhaltung.md)|neue Spalten banknrkredi, iban, qriban|Zusätzliche Info zu Kreditoren Zahlungsbank|
 |28.09.2022|[vDMSMieter](/_views/vDMSMieter.md)|neue Spalte kommunikationskanal|Zusätzliche Ausgabe des Kommunikationskanals zu Mieter/STEG Eigentümer|
+|30.09.2022|[vDMSLiegenschaft](/_views/vDMSLiegenschaft.md)|neue Spalten beginnperiodehknk, endeperiodehknk|Zusätzlich HKNK-Periode|
