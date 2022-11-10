@@ -14,7 +14,7 @@
 |kredinr|integer||
 |krediname|varchar(30)||
 |extkredinr|integer||
-|zahlverbindnr|integer|neu ab 5.3.0|
+|zahlverbindnr|integer||
 |rechnungdat|date||
 |faelligdat|date||
 |buchdatrg|date||
