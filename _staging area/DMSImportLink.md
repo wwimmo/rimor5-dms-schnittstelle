@@ -37,7 +37,7 @@
 |versicherungnr|integer|||Versicherungsnummer<br>Für Entitäten: versicherung|
 |aufgabenr|integer|||Nummer einer Aufgabe<br>Für Entitäten: aufgabe|
 |jobnr|integer|||Nummer eines Jobs<br>Für Entitäten: jobkonfig|
-|ausgabenr|integer|||Ausgabenumme<br>\>Für Entitäten: ausgabe|
+|ausgabenr|integer|||Ausgabenummer<br>Für Entitäten: ausgabe|
 |persnr|integer|||Personennummer<br>Für Entitäten: person|
 |prodreportid|integer|||ReportID<br>Für Entitäten: archivreport|
 |produserid|varchar(20)|||BenutzerID<br>Für Entitäten: produsers|
