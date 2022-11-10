@@ -6,7 +6,7 @@ Dieses Dokument richtet sich an DMS Hersteller und Implementationspartner. Es en
 ## Rimo R5 Version
 [5.3.0 (Vorschau auf zukünftige Rimo Version)](https://github.com/wwimmo/rimor5-dms-schnittstelle/tree/5.3.0)<br>
 
-[5.2.6/5.2.7 (aktuelle Rimo Version)](https://github.com/wwimmo/rimor5-dms-schnittstelle/tree/main)<br>
+[5.2.6/5.2.7 (aktuelle Rimo Version)](https://github.com/wwimmo/rimor5-dms-schnittstelle/tree/5.2.6_7)<br>
 
 
 *History:<br>*
