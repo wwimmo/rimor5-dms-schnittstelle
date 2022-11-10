@@ -13,6 +13,9 @@
 |eigentuemername|varchar(40)||
 |verwaltnr|integer||
 |verwaltbezeichnung|varchar(30)||
+|banknrkredi|integer||
+|iban|varchar(34)||
+|qriban|varchar(34)||
 |beschreibung|long varchar||
 |entityname|varchar(50)||
 |dmsid|integer||

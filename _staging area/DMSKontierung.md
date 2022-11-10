@@ -3,12 +3,13 @@
 |Spaltenname|Typ|Zwingend|Beispiel|Kommentar|
 |:----------|:--|:-------|:-------|:--------|
 |dmsnr|varchar(100)|ja|936DA01F-9ABD-4D9D-80C7-02AF85C822A8|Eindeutige Identifikation eines Dokuments aus DMS|
-|archiv|integer|ja|500|Die Archivnr wird von Rimo R5 vergeben, kann dort jedoch im Rahmen der E-Dossier Archive frei defineirt werden|
+|archiv|integer|ja|500|Die Archivnr wird von Rimo R5 vergeben, kann dort jedoch im Rahmen der E-Dossier Archive frei definiert werden|
 |laufnr|integer|ja||Fortlaufende Nummerierung pro dmsnr beginnend mit 1 |
 |fibunr|integer|bedingt|81100|Nummer der Finanzbuchhaltung <br>zwingend für automatischen Import|
 |liegnr|integer|bedingt|11001|Liegenschaftsnummer gemäss vDMSObjekt<br>zwingend, wenn Objekt (objnr) angegeben wird|
 |objnr|integer||10001|Objektnummer gemäss vDMSObjekt|
 |mieternr|integer|bedingt|1000101|Mieternummer. Prioritär gegenüber Kontierung (kto)<br>zwingend für automatischen Import, wenn kto leer|
+|forderungsart|integer||2|Forderungsart gemäss vDMSForderungsart nur möglich wenn Mieter bzw. STEG-Eigentümer (mieternr) angegeben wird|
 |kto|integer|bedingt|4100|Kontonummer. Alternativ zu Mieternummer (mieternr)<br>zwingend für automatischen Import, wenn mieternr leer|
 |buchtxt1|varchar(50)|bedingt|Hauswartung|Buchungstext 1<br>zwingend für automatischen Import|
 |buchtxt2|varchar(50)||Laub zusam-mennehmen|Buchungstext 2|
