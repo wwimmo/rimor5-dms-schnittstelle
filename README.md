@@ -4,7 +4,7 @@ Offene DMS Schnittstelle für das Immobilien-ERP Rimo R5
 Dieses Dokument richtet sich an DMS Hersteller und Implementationspartner. Es enthält die Dokumentation über den Aufbau und Inhalt der universellen DMS Schnittstelle Rimo R5. Das Dokument dient als Implementationshilfe und Nachschlagewerk für DMS Hersteller und Implementationspartner.
 
 ## Rimo R5 Version
-[5.x.x (Vorschau auf zukünftige Rimo Version)](https://github.com/wwimmo/rimor5-dms-schnittstelle/tree/5.x.x)<br>
+[5.4.0 (Vorschau auf zukünftige Rimo Version)](https://github.com/wwimmo/rimor5-dms-schnittstelle/tree/5.4.0)<br>
 
 [5.3.0 (aktuelle Rimo Version)](https://github.com/wwimmo/rimor5-dms-schnittstelle/tree/main)<br>
 
@@ -44,7 +44,7 @@ Der Benutzer DMS hat auf der Datenbank Rimo R5 folgende Rechte:
 - Schreibrechte auf einige Tabellen mit Präfix: "DMS" (siehe [DMS Schema](DMS%20Schema.md)) 
 - Leserechte auf Views mit Präfix: "vDMS"
 
-Eine detaillierte Dokumentation der Tabellen und Views ist im Abschnitt [DMS Schema](DMS%20Schema.md) dokumentiert.
+Eine detaillierte Dokumentation der Tabellen und Views finden Sie im Abschnitt [DMS Schema](DMS%20Schema.md).
 
 ## Dokumententypen
 Die DMS Schnittstelle verwendet einen definierten Katalog von Dokumententypen. Für eine möglichst automatisierte Verarbeitung der Dokumente ist die Angabe des Dokumententyps zu einem Dokument zwingend. Die Liste der möglichen Dokumententypen wird jeweils mit jeder Schnittstellenversion durch W&W veröffentlicht.
