@@ -66,5 +66,5 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 # Changelog
 |Datum|Tabelle/View|Änderung|Kommentar|
 |-|-|-|-|
-|16.01.2023|[DMSImport](/_staging%20area/DMSImport.md)|neue Spalte dateierfdat|Übernahme eines Dokumenten-Datums DMS Dokumenten- und Beleg-Import|
+|16.01.2023|[DMSImport](/_staging%20area/DMSImport.md)|neue Spalte dateierfdat|Übernahme eines Dokumenten-Datums beim DMS Dokumenten- und Beleg-Import|
 |16.01.2023|Liste der Fehlercodes ([Fehlercode](/_staging%20area/fehlercodes.md))|neuer Fehlercode 447|Zusätzliche Prüfung für QR-Rechnungen mit IBAN und SCOR: Angabe von CreditorRef zwingend|
