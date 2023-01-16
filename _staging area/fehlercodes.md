@@ -73,6 +73,7 @@ Die Fehlercodes werden jeweils durch den Rimo R5 Import in die zugehörige Stagi
 |444|Kombination QRR-Code/ESR-Felder nicht erlaubt - automatischer Import nicht möglich||
 |445|Kombination ESR-Code/QRR-Felder nicht erlaubt - automatischer Import nicht möglich||
 |446|Kombination ESR-Felder/QRR-Felder nicht erlaubt - automatischer Import nicht möglich||
+|447|Zu einer QRR mit IBAN + SCOR ist eine Kreditorreferenz zwingend - automatischer Import nicht möglich||
 |700|Fehlende Angaben zu %s für Dok./Dossier %s b. DMS-Importlink. DMS-Angaben ergänzen oder man. Import||
 |710|Zwingendes Feld %s für den automatischen Import leer. DMS-Angaben ergänzen oder manueller Import||
 |720|Der Dokumententyp ist inaktiv gesetzt. DMS-Angaben korrigieren oder manueller Import||
