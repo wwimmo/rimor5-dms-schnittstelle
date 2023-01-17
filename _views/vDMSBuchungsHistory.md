@@ -5,6 +5,7 @@
 |FIBUNR|integer||
 |KTO|integer||
 |JAHR|integer||
+|FBUCHUNGNR|integer||
 |BUCHDAT|date||
 |BUCHTXT1|varchar(50)||
 |BUCHTXT2|varchar(50)||
@@ -15,4 +16,10 @@
 |KREDIBEZ|varchar(30)||
 |LIEGNR|integer||
 |OBJNR|integer||
-|objbez|varchar(40)||
+|OBJBEZ|varchar(40)||
+|MIETERNR|integer||
+|MIETERBEZ|varchar(40)||
+|GERAETENR|integer||
+|GERAETEBEZ|varchar(81)||
+|UNTERHALTLAUFNR|integer||
+|DMSNR|varchar(100)||
