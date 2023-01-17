@@ -16,6 +16,5 @@
 |nettobetrag|numeric(11, 2)||
 |betrag|numeric(11, 2)||
 |verrechdat|date||
-|dmsnr|varchar(100)||
 |entityname|varchar(50)||
 |dmsid|integer||
