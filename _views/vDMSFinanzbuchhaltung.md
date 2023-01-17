@@ -13,7 +13,6 @@
 |eigentuemername|varchar(40)||
 |verwaltnr|integer||
 |verwaltbezeichnung|varchar(30)||
-|ktokredi|integer||
 |banknrkredi|integer||
 |iban|varchar(34)||
 |qriban|varchar(34)||
