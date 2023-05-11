@@ -22,8 +22,9 @@
 |mwstsatz|numeric(5, 2)||8.00|Mehrwertsteuersatz<br>Ist nur nötig, wenn der %-Satz ein anderer ist, als derjenige, welcher zum Buchungsdatum gültig ist. <br>Bsp: per 23.01.2018 ist 7.7% gültig. Bei einer Rechnung per Buchungsdatum 23.01.2018, welche aber das Jahr 2017 betrifft, muss hier 8.00% eingetragen werden.|
 |netto|char(1)||N|‚N‘ oder NULL = BRUTTO<br>‚Y‘ = NETTO<br>NETTO bezieht sich auf den Betrag bezüglich MWST.<br>Wenn Betrag inkl. MWST, so kann Feld NETTO leer sein,<br>wenn Betrag exkl. MWST, so muss NETTO = ‚Y‘ sein.|
 |geraetenr|integer||698|Gerätenummer gemäss vDMSGeraet.<br>Wenn ein automatischer Unterhalt erfasst werden soll, so muss ein Gerät definiert werden.|
-|unterhaltsartnr|integer|1||Unterhaltsart gemäss vDMSUnterhaltsart|
-|kurzbez|varchar(40)|Hauswartung||Kurzbezeichnung des Un-terhalts|
+|unterhaltsartnr|integer||1||Unterhaltsart gemäss vDMSUnterhaltsart|
+|kurzbez|varchar(40)||Hauswartung||Kurzbezeichnung des Unterhalts|
+|auftragsnr|integer||21|Auftragsnummer gemäss View vDMSAuftrag. Der Auftrag wird im Rimo R5 bei Rechnungsimport erledigt. Falls leer gelassen (NULL) wird ein eventuell erfasster Wert aus DMSRechnung.auftragsnr übernommen.
 |fehlercode|integer|||Wird von Rimo R5 abgefüllt.  [Fehlercodeliste](/_staging%20area/fehlercodes.md)|
 |erfuser|varchar(20)|||Erfassungsuser|
 |erfdat|timestamp|||Erfassungsdatum|
