@@ -17,5 +17,6 @@
 |betrag|numeric(11, 2)||
 |verrechdat|date||
 |dmsnr|varchar(100)||
+|archiv|integer||
 |entityname|varchar(50)||
 |dmsid|integer||
