@@ -1,9 +1,9 @@
-# DBA.DMSrechnung
+# DBA.DMSRechnung
 
 |Spaltenname|Typ|Zwingend|Beispiel|Kommentar|
 |:----------|:--|:-------|:-------|:--------|
 dmsnr|varchar(100)|ja|936DA01F-9ABD-4D9D-80C7-02AF85C822A8|Eindeutige Identifikation eines Dokuments aus DMS
-|archiv|integer|ja|500|Die Archivnr wird von Rimo R5 vergeben, kann dort jedoch im Rahmen der E-Dossier Archive frei defineirt werden
+|archiv|integer|ja|500|Die Archivnr wird von Rimo R5 vergeben, kann dort jedoch im Rahmen der E-Dossier Archive frei definiert werden
 |rechnr|varchar(25)||Rechnr, 159X630|Rechnungsnummer
 |rechnungdat|date|bedingt|03.11.2020|Rechnungsdatum<br>zwingend für automatischen Import
 |betrag|numeric(11, 2)|bedingt|500|Rechnungsbetrag oder Gutschriftsbetrag<br>Betrag immer > 0.00 und inkl. MWST (brutto) erwartet<br>zwingend für automatischen Import
@@ -27,7 +27,7 @@ dmsnr|varchar(100)|ja|936DA01F-9ABD-4D9D-80C7-02AF85C822A8|Eindeutige Identifika
 |kredinr|integer|bedingt|51|Kreditorennummer aus Rimo R5 Kreditorenstamm.<br>zwingend für automatischen Import
 |zahlverbindnr|integer|bedingt|1|Zahlverbindungsnummer aus Rimo R5 Zahlverbindungsstamm (View vDMSKreditorZahlverb)<br>zwingend für automatischen Import, wenn iban oder teilnehmernr oder
 |rspid|varchar(17)|bedingt|4.10108E+16|RS-PID für E-Rechnungssteller<br>zwingend für automatischen Import einer E-Rechnung
-|auftragsnr|integer||21|Auftragsnummer gemäss View vDMSAuftrag. Der Auftrag wird im Rimo R5 bei Rechnungsimport erledigt.
+|auftragsnr|integer||21|Legacy-Feld/bitte nicht mehr abfüllen<br><br>Auftragsnummer gemäss View vDMSAuftrag. Der Auftrag wird im Rimo R5 bei Rechnungsimport erledigt.<br><br>Wird neu von dmskontierung.auftragsnr übersteuert / keine Eingabe-Validierung mehr (ungültiger Eintrag erzeugt Importfehler 600 und verhindert den automatischen DMS Belegimport)
 |ohnezahlung|char(1)||Y|Die Rechnung direkt nach dem Import auf Status "nicht zahlen" setzen (bei "Y", Default = "N"). Funktionalität aktuell noch nicht immplementiert
 |fehlercode|integer|||Wird von Rimo R5 abgefüllt. Gemäss  [Fehlercodeliste](/_staging%20area/fehlercodes.md).
 |erfuser|varchar(20)|||Erfassungsuser
