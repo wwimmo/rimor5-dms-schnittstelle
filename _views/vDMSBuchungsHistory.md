@@ -23,3 +23,4 @@
 |GERAETEBEZ|varchar(81)||
 |UNTERHALTLAUFNR|integer||
 |DMSNR|varchar(100)||
+|ARCHIV|integer||
