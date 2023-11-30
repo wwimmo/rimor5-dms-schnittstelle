@@ -66,5 +66,5 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 # Changelog
 |Datum|Tabelle/View|Änderung|Kommentar|
 |-|-|-|-|
-|23.11.2023|[vDMSDokutyp(/_views/vDMSDokutyp.md)|neue Spalte active||
+|23.11.2023|[vDMSDokuTyp](/_views/vDMSDokuTyp.md)|neue Spalte active||
 |30.11.2023|[vDMSBuchungsHistory](/_views/vDMSBuchungsHistory.md)|neue Spalte hknkdat||
