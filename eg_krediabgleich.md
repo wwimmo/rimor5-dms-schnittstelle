@@ -30,7 +30,7 @@ Für die Identifikation eines Kreditors mit Regel 4 gelten folgende Bedingungen 
 Bei einer erfolgreichen Identifikation eines Kreditors, werden im Rimo R5 immer die Stammdaten der Person, Adresse oder Kommunikation gemäss den aktuellen Daten aus [dmsechnung](https://github.com/wwimmo/rimor5-dms-schnittstelle/blob/main/_staging%20area/DMSRechnung.md#dbadmsrechnung) aktualisiert.
 
 ## Neuerfassung eines Kreditors 
-Wurde kein Kreditor identifiziert, so wird automatisch ein neuer Kreditor erfasst. Dabei sind folgende Daten zur [dmsechnung](https://github.com/wwimmo/rimor5-dms-schnittstelle/blob/main/_staging%20area/DMSRechnung.md#dbadmsrechnung)zwingend:
+Wurde kein Kreditor identifiziert, so wird automatisch ein neuer Kreditor erfasst. Dabei sind folgende Daten zur [dmsechnung](https://github.com/wwimmo/rimor5-dms-schnittstelle/blob/main/_staging%20area/DMSRechnung.md#dbadmsrechnung) zwingend:
 - vorname, name bei Einzelpersonen
 - nambezeichnung bei juristischer Person
 - strasse oder postfach
