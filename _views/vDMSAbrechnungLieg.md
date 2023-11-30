@@ -9,7 +9,7 @@
 |fibujahr|integer||
 |beginn|date||
 |ende|date||
-|status|char(1)||
+|status|char(1)|"Y" = Abrechnung aktiv / "N" = Abrechnung inaktiv|
 |verwaltnr|integer||
 |verwaltbezeichnung|varchar(30)||
 |beschreibung|long varchar||
