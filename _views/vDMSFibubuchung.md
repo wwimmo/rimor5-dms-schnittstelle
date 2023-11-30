@@ -42,5 +42,6 @@
 |scharnierbuchungnr|integer||
 |verknuepfbuchungnr|integer||
 |dmsnr|varchar(100)||
+|archiv|integer||
 |entityname|varchar(50)||
 |dmsid|integer||
