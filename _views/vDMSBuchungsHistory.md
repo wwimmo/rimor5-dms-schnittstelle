@@ -22,5 +22,6 @@
 |GERAETENR|integer||
 |GERAETEBEZ|varchar(81)||
 |UNTERHALTLAUFNR|integer||
+|HKNKDAT|date||
 |DMSNR|varchar(100)||
 |ARCHIV|integer||
