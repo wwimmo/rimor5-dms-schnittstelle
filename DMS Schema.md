@@ -66,9 +66,5 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 # Changelog
 |Datum|Tabelle/View|Änderung|Kommentar|
 |-|-|-|-|
-|16.01.2023|[DMSImport](/_staging%20area/DMSImport.md)|neue Spalte dateierfdat|Übernahme eines Dokumenten-Datums beim DMS Dokumenten- und Beleg-Import|
-|16.01.2023|Liste der Fehlercodes ([Fehlercode](/_staging%20area/fehlercodes.md))|neuer Fehlercode 447|Zusätzliche Prüfung für QR-Rechnungen mit IBAN und SCOR: Angabe von CreditorRef zwingend|
-|17.01.2023|[vDMSBuchungsHistory](/_views/vDMSBuchungsHistory.md)|neue Spalten|Verbindung mit DMS Dokument, zusätzlich Angaben zu Mieter und Technische Verwaltung|
-|17.01.2023|[vDMSFibubuchung](/_views/vDMSFibubuchung.md)|neue Spalte dmsnr|Verbindung mit DMS Dokument|
-|17.01.2023|[vDMSKredibuchung](/_views/vDMSKredibuchung.md)|neue Spalte dmsnr|Verbindung mit DMS Dokument|
-|17.01.2023|[vDMSFinanzbuchhaltung](/_views/vDMSFinanzbuchhaltung.md)|neue Spalte ktokredi ||
+|23.11.2023|[vDMSDokutyp(/_views/vDMSDokutyp.md)|neue Spalte active||
+|30.11.2023|[vDMSBuchungsHistory](/_views/vDMSBuchungsHistory.md)|neue Spalte hknkdat||
