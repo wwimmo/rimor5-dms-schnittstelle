@@ -24,7 +24,7 @@
 |verwaltartbezeichnung|varchar(30)||
 |verwvertragsnr|integer||
 |verwvertragsbezeichnung|varchar(30)||
-|verwvertragsart|varchar(100)||
+|verwvertragsart|varchar(200)||
 |auftraggebernr|integer||
 |auftraggeber|varchar(40)||
 |versicherungnr|integer||
