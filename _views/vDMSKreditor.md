@@ -3,6 +3,7 @@
 |Spaltenname|Typ|Kommentar|
 |:----------|:--|:--------|
 |kredinr|integer||
+|kurzbez|varchar(30)||
 |extkredinr|integer||
 |suchbegr|varchar(40)||
 |VORNAME|varchar(30)||
