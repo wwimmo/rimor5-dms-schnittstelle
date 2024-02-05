@@ -68,3 +68,4 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 |-|-|-|-|
 |23.11.2023|[vDMSDokuTyp](/_views/vDMSDokuTyp.md)|neue Spalte active||
 |30.11.2023|[vDMSBuchungsHistory](/_views/vDMSBuchungsHistory.md)|neue Spalte hknkdat||
+|05.02.2024|[vDMSKreditor](/_views/vDMSKreditor.md)|neue Spalte kurzbez|ab 5.4.2.538|
