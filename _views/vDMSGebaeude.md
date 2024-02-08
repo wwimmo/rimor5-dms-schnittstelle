@@ -12,6 +12,6 @@
 |gebaeudeversnr|integer||
 |policennummer|varchar(30)||
 |versicherungsgesellschaft|varchar(30)||
-|beschreibung|text||
+|beschreibung|long varchar||
 |entityname|varchar(50)||
 |dmsid|integer||
