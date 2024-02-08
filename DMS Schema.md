@@ -35,6 +35,8 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 |[vDMSFibujahr](/_views/vDMSFibujahr.md)|Eine Liste sämtlicher Buchhaltungsperioden zur Ablage von z.B. Abschlussdokumenten|
 |[vDMSFinanzbuchhaltung](/_views/vDMSFinanzbuchhaltung.md)|Diese View enthält eine Liste sämtlicher Finanzbuchhaltungen (Fibus) gemäss Rimo R5 Stammdaten|
 |[vDMSForderungsart](/_views/vDMSForderungsart.md)|Eine Liste aller Forderungsarten mit der Angabe, ob sie für Mieter und/oder STEG-Eigentümer zulässig ist|
+|[DMSGebaeude](/_views/vDMSGebaeude.md)|Liste aller Gebäude|
+|[vDMSGebaeudeversicherung](/_views/vDMSGebaeudeversicherung.md)|Liste aller Gebäudeversicherungen|
 |[vDMSGenossenschaft](/_views/vDMSGenossenschaft.md)|Eine Liste aller Genossenschaften mit Zuordnung zur Finanzbuchhaltung|
 |[vDMSGenossenschafter](/_views/vDMSGenossenschafter.md)|Eine Liste aller Genossenschafter|
 |[vDMSGeraet](/_views/vDMSGeraet.md)|Diese View zeigt sämtliche Geräte gemäss der technischen Verwaltung im Rimo R5. Die Geräte können anhand der Angaben in der Spalte subgearetvon in eine hierarchische Struktur gebracht werden|
@@ -58,6 +60,7 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 |[vDMSRGVisumUser](/_views/vDMSRGVisumUser.md)|In dieser View werden alle Benutzer von Rimo R5 dargestellt. Die Benutzer könen in Workflows (vDMSWorkflow) hinterlegt werden|
 |[vDMSRolleZuLieg](/_views/vDMSRolleZuLieg.md)|In dieser View werden je Liegenschaft Benutzer in deren Rolle aufgeführt. Alternativ zu den Daten gemäss vDMSWorkflow können auch diese Rollendaten als Basis für Workflows verwendet werden|
 |[vDMSUnterhaltsart](/_views/vDMSUnterhaltsart.md)|Liste aller Unterhaltsarten. Die Unterhaltsart kann zur dmskontierung im Rahmen der technischen Verwaltung eingetragen werden|
+|[vDMSVersicherung](/_views/vDMSVersicherung.md)|Liste aller Versicherungen|
 |[vDMSVerwaltung](/_views/.vDMSVerwaltung.md)|Liste aller Verwaltungen|
 |[vDMSWorkflow](/_views/vDMSWorkflow.md)|Liste aller Fibus mit Info des Workflows für Kreditorenrechnungen (Visum1-4)|
 |[vDMSZahlungscode](/_views/vDMSZahlungscode.md)|Liste aller möglichen Zahlungscode. Ein Zahlungscode kann alternativ zum Fälligkeitsdatum zur dmsrechnung angegeben werden|
@@ -69,3 +72,6 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 |23.11.2023|[vDMSDokuTyp](/_views/vDMSDokuTyp.md)|neue Spalte active||
 |30.11.2023|[vDMSBuchungsHistory](/_views/vDMSBuchungsHistory.md)|neue Spalte hknkdat||
 |05.02.2024|[vDMSKreditor](/_views/vDMSKreditor.md)|neue Spalte kurzbez|ab 5.4.2.538|
+|08.02.2024|[vDMSGebaeude](/_views/vDMSGebaeude.md)|neue View|ab 5.4.2.545|
+|08.02.2024|[vDMSGebaeudeversicherung](/_views/vDMSGebaeudeversicherung.md)|neue View|ab 5.4.2.545|
+|08.02.2024|[vDMSVersicherung](/_views/vDMSVersicherung.md)|neue View|ab 5.4.2.545|
