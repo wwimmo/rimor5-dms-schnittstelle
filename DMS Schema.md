@@ -22,7 +22,7 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 |[vDMSAbrechnungLieg](/_views/vDMSAbrechnungLieg.md)|Diese View enthält die Zuweisungen der Heiz- und Nebenkostenabrechnungen zu den Liegenschaften| 
 |[vDMSAdresseZuEntity](/_views/vDMSAdresseZuEntity.md)|Diese View enthält sämtliche Adressen als String mit der jeweiligen Verwendung im Rimo R5. Hiermit können z.B. eingehende Dokumente den Absendern im Rimo R5 zugewiesen werden|
 |[vDMSAnrede](/_views/vDMSAnrede.md)|Liste aller in Rimo R5 erfassten Anreden. Wird benötigt wenn die Schnittstelle für automatischen Kreditorenabgleich aktiviert ist|
-|[vDMSAuftrag](/_views/vDMSAuftrag.md)|Diese View enthält eine Liste mit sämtlichen Aufträgen inkl. Auftrags-Positionen und -Kontierungen. Die Auftragsnummer gemäss dieser View kann zu einer Rechnung in der Tabelle dmsrechnung.auftragsnr mitgeliefert werden, damit Rimo R5 den offenen Auftrag erledigen kann|
+|[vDMSAuftrag](/_views/vDMSAuftrag.md)|Diese View enthält eine Liste mit sämtlichen Aufträgen inkl. Auftrags-Positionen und -Kontierungen. Die Auftragsnummer gemäss dieser View kann zu einer Rechnung in der Tabelle [DMSKontierung](/_staging%20area/DMSKontierung.md).auftragsnr mitgeliefert werden, damit Rimo R5 den offenen Auftrag erledigen kann|
 |[vDMSBelegIDzuEntity](/_views/vDMSBelegIDzuEntity.md)|Diese View enthält alle bereits verbuchten Belege mit manueller Belegnummer im Rimo R5. Mit diesen Daten können z.B. nachträglich gescannte Belegdokumente, welche eine Belegnummer enthalten den korrekten Buchungen zugewiesen werden|
 |[vDMSBuchungsHistory](/_views/vDMSBuchungsHistory.md)|Diese View enthält die Buchungshistory der letzten drei Jahre. Hiermit können z.B. bereits verwendete Buchungstexte auf bestimmten Konti ermittelt und dem Benutzer zur Kontierung vorgeschlagen werden|
 |[vDMSDokument](/_views/vDMSDokument.md)|Diese View enthält eine Liste sämtlicher ursprünglich von Rimo R5 erstellten und vom DMS zurückgemeldeten Dokumente, die erfolgreich via Remapping (dmsremapping) von Rimo R5 verarbeitet wurden|
@@ -69,9 +69,9 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 # Changelog
 |Datum|Tabelle/View|Änderung|Kommentar|
 |-|-|-|-|
-|23.11.2023|[vDMSDokuTyp](/_views/vDMSDokuTyp.md)|neue Spalte active||
-|30.11.2023|[vDMSBuchungsHistory](/_views/vDMSBuchungsHistory.md)|neue Spalte hknkdat||
-|05.02.2024|[vDMSKreditor](/_views/vDMSKreditor.md)|neue Spalte kurzbez|ab 5.4.2.538|
+|23.11.2023|[vDMSDokuTyp](/_views/vDMSDokuTyp.md)|neue Spalte "active"||
+|30.11.2023|[vDMSBuchungsHistory](/_views/vDMSBuchungsHistory.md)|neue Spalte "hknkdat"||
+|05.02.2024|[vDMSKreditor](/_views/vDMSKreditor.md)|neue Spalte "kurzbez"|ab 5.4.2.538|
 |08.02.2024|[vDMSGebaeude](/_views/vDMSGebaeude.md)|neue View|ab 5.4.2.545|
 |08.02.2024|[vDMSGebaeudeversicherung](/_views/vDMSGebaeudeversicherung.md)|neue View|ab 5.4.2.545|
 |08.02.2024|[vDMSVersicherung](/_views/vDMSVersicherung.md)|neue View|ab 5.4.2.545|
