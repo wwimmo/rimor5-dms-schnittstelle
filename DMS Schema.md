@@ -75,4 +75,4 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 |08.02.2024|[vDMSGebaeude](/_views/vDMSGebaeude.md)|neue View|ab 5.4.2.545|
 |08.02.2024|[vDMSGebaeudeversicherung](/_views/vDMSGebaeudeversicherung.md)|neue View|ab 5.4.2.545|
 |08.02.2024|[vDMSVersicherung](/_views/vDMSVersicherung.md)|neue View|ab 5.4.2.545|
-|23.02.2024|[DMSKontierung](/_staging%20area/DMSKontierung.md)|erweiterte Funktionalität beim DMS Belegimport|ab 5.4.2.564|
+|23.02.2024|[DMSKontierung](/_staging%20area/DMSKontierung.md)|erweiterte Funktionalität beim DMS Belegimport<br>(siehe :information_source: bzw. Fussnote)|ab 5.4.2.564|
