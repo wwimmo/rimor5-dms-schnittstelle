@@ -28,7 +28,7 @@ dmsnr|varchar(100)|ja|936DA01F-9ABD-4D9D-80C7-02AF85C822A8|Eindeutige Identifika
 |zahlverbindnr|integer|bedingt|1|Zahlverbindungsnummer aus Rimo R5 Zahlverbindungsstamm (View vDMSKreditorZahlverb)<br>zwingend für automatischen Import, wenn iban oder teilnehmernr oder
 |rspid|varchar(17)|bedingt|4.10108E+16|RS-PID für E-Rechnungssteller<br>zwingend für automatischen Import einer E-Rechnung
 |auftragsnr|integer||21|Legacy-Feld/bitte nicht mehr abfüllen<br><br>Auftragsnummer gemäss View vDMSAuftrag. Der Auftrag wird im Rimo R5 bei Rechnungsimport erledigt.<br><br>Wird neu von dmskontierung.auftragsnr übersteuert / keine Eingabe-Validierung mehr (ungültiger Eintrag erzeugt Importfehler 600 und verhindert den automatischen DMS Belegimport)
-|ohnezahlung|char(1)||Y|Die Rechnung direkt nach dem Import auf Status "nicht zahlen" setzen (bei "Y", Default = "N"). Funktionalität aktuell noch nicht immplementiert
+|ohnezahlung|char(1)||Y|Die Rechnung direkt nach dem Import auf Status "nicht zahlen" setzen (bei "Y", Default = "N"). Funktionalität ab 5.4.2.698 implementiert
 |fehlercode|integer|||Wird von Rimo R5 abgefüllt. Gemäss  [Fehlercodeliste](/_staging%20area/fehlercodes.md).
 |erfuser|varchar(20)|||Erfassungsuser
 |erfdat|timestamp|||Erfassungsdatum
