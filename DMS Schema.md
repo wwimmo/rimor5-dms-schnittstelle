@@ -76,3 +76,6 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 |08.02.2024|[vDMSGebaeudeversicherung](/_views/vDMSGebaeudeversicherung.md)|neue View|ab 5.4.2.545|
 |08.02.2024|[vDMSVersicherung](/_views/vDMSVersicherung.md)|neue View|ab 5.4.2.545|
 |23.02.2024|[DMSKontierung](/_staging%20area/DMSKontierung.md)|erweiterte Funktionalität beim DMS Belegimport<br>(Dokumenten-Links auf Mieter anlegen)|ab 5.4.2.564<br>(siehe :information_source: bzw. Fussnote)|
+|06.05.2024|[DMSImport](/_staging%20area/DMSImport.md)|Spalte "bezeichnung" auf 255 Zeichen vergrössert|ab 5.4.2.547|
+|20.06.2024|[DMSRechnung](/_staging%20area/DMSRechnung.md)|Rechnung direkt nach dem Import auf Status "nicht zahlen" setzen, wenn dmsrechnung.ohnezahlung = "Y" |ab 5.4.2.598|
+
