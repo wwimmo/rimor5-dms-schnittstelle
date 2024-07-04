@@ -3,7 +3,7 @@
 |:----------|:--|:-------|:-------|:--------|
 |dmsnr|varchar(100)|ja|936DA01F-9ABD-4D9D-80C7-02AF85C822A8|Eindeutige Identifikation eines Dokuments aus dem DMS|
 |archiv|integer|ja|500|Die Archivnummer wird von Rimo R5 vergeben, kann dort jedoch im Rahmen der E-Dossier Archivstammdaten frei definiert werden|
-|bezeichnung|varchar(50)||Mietvertrag von Hans Muster|Wird ins gleichnamige Feld im E-Dossier übernommen|
+|bezeichnung|varchar(255)||Mietvertrag von Hans Muster|Wird ins gleichnamige Feld im E-Dossier übernommen|
 |dmsdokutypnr|integer|ja|1|Dokumententypnummer gemäss separater Dokumentation "Dokumententypen.xlsx"|
 |verarbstatus|integer|ja|0|Folgende Status sind definiert:<br>0 = bereit zum Import<br>1 = in Arbeit<br>2 = erfolgreich importiert<br>3 = blockiert im Rimo R5<br>-1 = fehlerhafter Import<br>-2 = fehlerhafte Kontierung (nur Dokumententypen 1 und 2 resp. eingehende Rechnung/Gutschrift)|
 |dmslinknr|integer||123|Die Rimo R5 eindeutige interne Nummer jedes Dokumentes. Wird durch Rimo R5 definiert|
