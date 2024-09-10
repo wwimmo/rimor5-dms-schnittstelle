@@ -14,12 +14,14 @@
 |kredinr|integer||
 |krediname|varchar(30)||
 |extkredinr|integer||
+|flaufnr|integer||
 |zahlverbindnr|integer||
 |rechnungdat|date||
 |faelligdat|date||
 |buchdatrg|date||
 |buchdatzlg|date||
 |rechnr|varchar(25)||
+|belastbanknr|integer||
 |belastbank|varchar(30)||
 |rechnungbetrag|numeric(11, 2)||
 |zahlbetrag|numeric(11, 2)||

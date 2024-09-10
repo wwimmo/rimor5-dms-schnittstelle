@@ -29,18 +29,20 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 |[vDMSDokumententLinks](/_views/vDMSDokumentenLinks.md)|Diese View enthält eine Liste von Verlinkungen sämtlicher ursprünglich von Rimo R5 erstellten und vom DMS zurückgemeldeten Dokumente, die erfolgreich via Remapping (dmsremapping) von Rimo R5 verarbeitet wurden. Die View korrespondiert mit allen Dokumenten gemäss vDMSDokument|
 |[vDMSDokuTyp](/_views/vDMSDokuTyp.md)|Diese View enthält eine Liste aller Dokumententypen, welche im Rimo R5 verfügbar sind. Jeder Dokumententyp wird je möglicher Zuordnung zu einer Rimo R5 Entität (entityname) in einer separaten Zeile nochmals aufgeführt|
 |[vDMSEigentuemer](/_views/vDMSEigentuemer.md)|Eine Liste aller Liegenschaftseigentümern im Rimo R5 zur Ablage von Dokumenten zu deren Dossier|
+|[vDMSEigentuemerProLieg](/_views/vDMSEigentuemerProLieg.md)|Eine Liste der Zuweisungen von Liegenschaftseigentümern (nicht Haupteigentümer) zu Liegenschaften in Rimo R5 (Liegenschaft-Stammdaten-Weitere Stammdaten-Eigentümer) zur Ablage von Dokumenten zu deren Dossier|
 |[vDMSEmailZuEntity](/_views/vDMSEmailZuEntity.md)|Eine Liste sämtlicher im Rimo R5 vorhandenen E-Mail Adressen und deren Zuordnung zu Entitäten und Stammdaten. Mittels dieser View können z.B. erhaltene E-Mails automatisch den Rimo R5 Daten zugewiesen werden|
 |[vDMSExportDokument](/_views/vDMSExportDokument.md)|In dieser View werden sämtliche Dokumente angezeigt, welche von Rimo R5 erstellt und dem DMS zur Archivierung bereit stehen. Der physische Dokumentelink setzt sich aus den Spalten pfad und dateiname zusammen. Dokumente, welche aus dieser View erfolgreich im DMS archiviert wurden, müssen via dmsremapping an Rimo R5 zurückgemeldet werden, damit Rimo R5 diese Dokumente korrekt neu verlinken kann|
 |[vDMSFibubuchung](/_views/vDMSFibubuchung.md)|Eine Liste sämtlicher Fibubuchungen aus Rimo R5. Aufgrung der hohen möglichen Datenmenge sollte diese View bei der Abfrage wenn möglich stark eingegrenzt werden|
 |[vDMSFibujahr](/_views/vDMSFibujahr.md)|Eine Liste sämtlicher Buchhaltungsperioden zur Ablage von z.B. Abschlussdokumenten|
 |[vDMSFinanzbuchhaltung](/_views/vDMSFinanzbuchhaltung.md)|Diese View enthält eine Liste sämtlicher Finanzbuchhaltungen (Fibus) gemäss Rimo R5 Stammdaten|
 |[vDMSForderungsart](/_views/vDMSForderungsart.md)|Eine Liste aller Forderungsarten mit der Angabe, ob sie für Mieter und/oder STEG-Eigentümer zulässig ist|
-|[DMSGebaeude](/_views/vDMSGebaeude.md)|Liste aller Gebäude|
+|[vDMSGebaeude](/_views/vDMSGebaeude.md)|Liste aller Gebäude|
 |[vDMSGebaeudeversicherung](/_views/vDMSGebaeudeversicherung.md)|Liste aller Gebäudeversicherungen|
 |[vDMSGenossenschaft](/_views/vDMSGenossenschaft.md)|Eine Liste aller Genossenschaften mit Zuordnung zur Finanzbuchhaltung|
 |[vDMSGenossenschafter](/_views/vDMSGenossenschafter.md)|Eine Liste aller Genossenschafter|
 |[vDMSGeraet](/_views/vDMSGeraet.md)|Diese View zeigt sämtliche Geräte gemäss der technischen Verwaltung im Rimo R5. Die Geräte können anhand der Angaben in der Spalte subgearetvon in eine hierarchische Struktur gebracht werden|
 |[vDMSHauswart](/_views/vDMSHauswart.md)|Eine Liste aller Hauswarte inkl. deren Adresse|
+|[vDMSHauswartProLieg](/_views/vDMSHauswartProLieg.md)|Eine Liste der Zuweisungen aller Hauswarte zu Liegenschaften (in Rimo R5: Liegenschaft-Stammdaten-Weitere Stammdaten-Hauswart)|
 |[vDMSHypothek](/_views/vDMSHypothek.md)|Diese View zeigt alle Hypotheken mit der Zuordnung zur Liegenschaft. die Angaben zum Kreditor sowie einer Zahlverbindung sind im Datenmodell berücksichtigt, aber aktuell im Rimo R5 noch nicht in Gebrauch|
 |[vDMSIBANZuEntity](/_views/vDMSIBANZuEntity.md)|Diese Liste zeigt alle im Rimo R5 vorhandenen IBAN und deren Zuordnung zu den Daten. In dieser Liste kann nach einer IBAN gesucht und die zugeordneten Daten ermitteln, um z.B. Dokumente mit IBAN zu den richtigen Daten im Rimo R4 abgelegt werden|
 |[vDMSKontierungsregel](/_views/vDMSKontierungsregel.md)|In dieser View sind alle definierten Kontierungsregeln mit Referenz-IDs (referenzid) aufgelistet. Die Kontierungsregeln können im Rimo R5 für definierte Geschäftsfälle konfiguriert werden und können im Kontierungsprozess als Vorlage wiederverwendet werden|
@@ -61,7 +63,7 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 |[vDMSRolleZuLieg](/_views/vDMSRolleZuLieg.md)|In dieser View werden je Liegenschaft Benutzer in deren Rolle aufgeführt. Alternativ zu den Daten gemäss vDMSWorkflow können auch diese Rollendaten als Basis für Workflows verwendet werden|
 |[vDMSUnterhaltsart](/_views/vDMSUnterhaltsart.md)|Liste aller Unterhaltsarten. Die Unterhaltsart kann zur dmskontierung im Rahmen der technischen Verwaltung eingetragen werden|
 |[vDMSVersicherung](/_views/vDMSVersicherung.md)|Liste aller Versicherungen|
-|[vDMSVerwaltung](/_views/.vDMSVerwaltung.md)|Liste aller Verwaltungen|
+|[vDMSVerwaltung](/_views/vDMSVerwaltung.md)|Liste aller Verwaltungen|
 |[vDMSWorkflow](/_views/vDMSWorkflow.md)|Liste aller Fibus mit Info des Workflows für Kreditorenrechnungen (Visum1-4)|
 |[vDMSZahlungscode](/_views/vDMSZahlungscode.md)|Liste aller möglichen Zahlungscode. Ein Zahlungscode kann alternativ zum Fälligkeitsdatum zur dmsrechnung angegeben werden|
 |[vDMSZahlverbKredi](/_views/vDMSZahlverbKredi.md)|Liste aller Zahlverbindungen zu Kreditoren|
@@ -78,4 +80,5 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 |23.02.2024|[DMSKontierung](/_staging%20area/DMSKontierung.md)|erweiterte Funktionalität beim DMS Belegimport<br>(Dokumenten-Links auf Mieter anlegen)|ab 5.4.2.564<br>(siehe :information_source: bzw. Fussnote)|
 |06.05.2024|[DMSImport](/_staging%20area/DMSImport.md)|Spalte "bezeichnung" auf 255 Zeichen vergrössert|ab 5.4.2.547|
 |20.06.2024|[DMSRechnung](/_staging%20area/DMSRechnung.md)|Rechnung direkt nach dem Import auf Status "nicht zahlen" setzen, wenn dmsrechnung.ohnezahlung = "Y" |ab 5.4.2.598|
-
+|26.08.2024|[vDMSKreditorenrechnung](/_views/vDMSKreditorenrechnung.md)|neuen Spalten "flaufnr" und "belastbanknr" |ab 5.4.2.758|
+|09.09.2024|[vDMSEigentuemerProLieg](/_views/vDMSEigentuemerProLieg.md) [vDMSHauswartProLieg](/_views/vDMSHauswartProLieg.md)|neue Views|ab 5.4.2.760
