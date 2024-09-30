@@ -82,3 +82,4 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 |20.06.2024|[DMSRechnung](/_staging%20area/DMSRechnung.md)|Rechnung direkt nach dem Import auf Status "nicht zahlen" setzen, wenn dmsrechnung.ohnezahlung = "Y" |ab 5.4.2.598|
 |26.08.2024|[vDMSKreditorenrechnung](/_views/vDMSKreditorenrechnung.md)|neuen Spalten "flaufnr" und "belastbanknr" |ab 5.4.2.758|
 |09.09.2024|[vDMSEigentuemerProLieg](/_views/vDMSEigentuemerProLieg.md) [vDMSHauswartProLieg](/_views/vDMSHauswartProLieg.md)|neue Views|ab 5.4.2.760
+|24.09.2024|[vDMSFibubuchung](/_views/vDMSFibubuchung.md)|neue Spalten "storniert" und "doculinkexists"|ab 5.4.2.781|

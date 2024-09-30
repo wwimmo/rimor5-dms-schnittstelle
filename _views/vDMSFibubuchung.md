@@ -22,6 +22,7 @@
 |gebdat|date||
 |sammbuchungnr|integer||
 |prov|char(1)||
+|storniert|char(1)||
 |kredinr|integer||
 |flaufnr|integer||
 |kbuchkredinr|integer||
@@ -41,6 +42,7 @@
 |antvorsteu|numeric(5, 2)||
 |scharnierbuchungnr|integer||
 |verknuepfbuchungnr|integer||
+|doculinkexists|char(1)||
 |dmsnr|varchar(100)||
 |archiv|integer||
 |entityname|varchar(50)||
