@@ -6,6 +6,7 @@
 |dmsnr|varchar(100)||
 |archiv|integer||
 |laufnr|integer||
+|dokulinkerfdat|timestamp||
 |entityname|varchar(50)||
 |dmsid|integer||
 |liegnr|integer||
