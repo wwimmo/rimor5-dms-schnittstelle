@@ -9,3 +9,6 @@
 |laufnr|integer||
 |mietbeginn|date||
 |mietende|date||
+|optiert|char(1)|'Y'=steuerpflichtig, 'N'=nicht steuerpflichtig, 'O'=optiert nach Art. 22 MWSTG|
+|mvvertrartnr|integer|Mietvertragsart-Nummer|
+|mvvertrartbez|varchar(50)|Mietvertragsart-Bezeichnung|
