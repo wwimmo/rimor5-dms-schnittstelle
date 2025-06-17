@@ -43,6 +43,7 @@ Die Fehlercodes werden jeweils durch den Rimo R5 Import in die zugehörige Stagi
 |380|Buchungen mit optiertem Anteil dürfen nicht auf das FIBU-Konto %d gebucht werden||
 |390|Der eingegebene Mehrwertsteuersatz %n ist ungültig||
 |391|Es wurde zu MWST-Nr %d und Buchungsdatum %s kein gültiger MWST-Satz gefunden oder angegeben||
+|392|Eine MWST-Satz-Angabe (%n) ohne MWST-Code ist nicht zulässig||
 |400|Die Banknummer Kredi ist auf der FIBU %d nicht erfasst||
 |410|Die Banknummer Kredi auf unterschiedlichen FIBUs einer Kontierung muss gleich sein||
 |420|Unterschiedliche Buchungsdaten auf der Kontierung zum Beleg - automatischer Import nicht möglich||

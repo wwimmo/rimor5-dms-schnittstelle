@@ -86,3 +86,4 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 |05.12.2024|[vDMSDokument](/_views/vDMSDokument.md)|neue Spalten "dateiname", "ablagearchivnr", "ablagefilename", "pfad" und "remapdatum"|ab 5.4.2.892|
 |05.12.2024|[vDMSDokumententLinks](/_views/vDMSDokumentenLinks.md)|neue Spalte "dokulinkerfdat"|ab 5.4.2.892|
 |13.03.2025|[vDMSMieterZuObjekt](/_views/vDMSMieterZuObjekt.md)|neue Spalten "optiert", "mvvertrartnr" und "mvvertrartbez"|ab 5.4.2.966|
+|17.06.2025|[Fehlercode](/_staging%20area/fehlercodes.md)|neuer Fehlercode 392 |ab 5.4.2.1008|
