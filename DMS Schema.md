@@ -5,10 +5,10 @@ Sämtliche Tabellen sind dem Owner DBA zugewiesen.
 |Tabelle|Beschreibung|
 |-|-|
 |[DMSImport](/_staging%20area/DMSImport.md)|Jedes Dokument, welches im Rimo R5 verlinkt werden soll, erhält vorerst einen Eintrag in diese Tabelle.|
-|[DMSImportLink](/_staging%20area/DMSImportLink.md)|Zu jedem Dokument soll das DMS so viele Daten wie möglich bereits an Rimo R5 übermitteln, damit Rimo R5 das Dokument möglichst automatisiert im E-Dossier verlinken kann.|
-|[DMSRechnung](/_staging%20area/DMSRechnung.md)|Nur für Dokumententypen 1 und 2 (Kreditorenrechnung/ -gutschrift): Wenn zu einer Kreditorenrechnung/ -gutschrift zusätzliche Daten (Rechnungsdaten wie z.B. Rechnungsnummer, Zahlungsinformationen, Betrag, usw.) ins Rimo R5 importiert werden sollen, so werden diese Daten zum Import hier gespeichert.|
-|[DMSKontierung](/_staging%20area/DMSKontierung.md)|Nur für Dokumententypen 1 und 2 (Kreditorenrechnung/ -gutschrift): Wenn zu einer Kreditorenrechnung oder Kreditorengutschrift eine Kontierung im DMS Workflow erfolgte, so wird diese Kontierung in der Tabelle DMSKontierung gespeichert.|
-|[DMSRemapping](/_staging%20area/DMSRemapping.md)|Diese Tabelle wird wie folgt verwendet: Wenn das DMS Dokument aus der lokalen Dateiablage im Datenspeicher archiviert hat, erfolgt über diese Tabelle die Meldung der neuen DMS-ID. Rimo R5 bearbeitet diese Einträge regelmässig und synchronisiert die Dokumentenlinks.|
+|[DMSImportLink](/_staging%20area/DMSImportLink.md)|Nicht für Dokumententypen 1 und 2 (Kreditorenrechnung/-gutschrift): Zu jedem Dokument soll das DMS so viele Daten wie möglich bereits an Rimo R5 übermitteln, damit Rimo R5 das Dokument möglichst automatisiert im E-Dossier verlinken kann.|
+|[DMSRechnung](/_staging%20area/DMSRechnung.md)|Nur für Dokumententypen 1 und 2 (Kreditorenrechnung/-gutschrift): Wenn zu einer Kreditorenrechnung/-gutschrift zusätzliche Daten (Rechnungsdaten wie z.Bsp. Rechnungsnummer, Zahlungsinformationen, Betrag usw.) ins Rimo R5 importiert werden sollen, so werden diese Daten zum Import hier gespeichert.|
+|[DMSKontierung](/_staging%20area/DMSKontierung.md)|Nur für Dokumententypen 1 und 2 (Kreditorenrechnung/-gutschrift): Wenn zu einer Kreditorenrechnung oder Kreditorengutschrift eine Kontierung im DMS Workflow erfolgte, so wird diese Kontierung in der Tabelle DMSKontierung gespeichert.|
+|[DMSRemapping](/_staging%20area/DMSRemapping.md)|Diese Tabelle wird wie folgt verwendet: Wenn das DMS Dokument aus der lokalen Dateiablage im Datenspeicher archiviert wurde, erfolgt über diese Tabelle die Meldung der neuen DMS-ID. Rimo R5 bearbeitet diese Einträge regelmässig und synchronisiert die Dokumentenlinks.|
 
 ![Staging Schema](/_grafiken/dmsstagingschema.png)
 
@@ -40,17 +40,17 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 |[vDMSGebaeudeversicherung](/_views/vDMSGebaeudeversicherung.md)|Liste aller Gebäudeversicherungen|
 |[vDMSGenossenschaft](/_views/vDMSGenossenschaft.md)|Eine Liste aller Genossenschaften mit Zuordnung zur Finanzbuchhaltung|
 |[vDMSGenossenschafter](/_views/vDMSGenossenschafter.md)|Eine Liste aller Genossenschafter|
-|[vDMSGeraet](/_views/vDMSGeraet.md)|Diese View zeigt sämtliche Geräte gemäss der technischen Verwaltung im Rimo R5. Die Geräte können anhand der Angaben in der Spalte subgearetvon in eine hierarchische Struktur gebracht werden|
+|[vDMSGeraet](/_views/vDMSGeraet.md)|Diese View zeigt sämtliche Geräte gemäss der technischen Verwaltung im Rimo R5. Die Geräte können anhand der Angaben in der Spalte "subgeraetvon" in eine hierarchische Struktur gebracht werden|
 |[vDMSHauswart](/_views/vDMSHauswart.md)|Eine Liste aller Hauswarte inkl. deren Adresse|
 |[vDMSHauswartProLieg](/_views/vDMSHauswartProLieg.md)|Eine Liste der Zuweisungen aller Hauswarte zu Liegenschaften (in Rimo R5: Liegenschaft-Stammdaten-Weitere Stammdaten-Hauswart)|
-|[vDMSHypothek](/_views/vDMSHypothek.md)|Diese View zeigt alle Hypotheken mit der Zuordnung zur Liegenschaft. die Angaben zum Kreditor sowie einer Zahlverbindung sind im Datenmodell berücksichtigt, aber aktuell im Rimo R5 noch nicht in Gebrauch|
-|[vDMSIBANZuEntity](/_views/vDMSIBANZuEntity.md)|Diese Liste zeigt alle im Rimo R5 vorhandenen IBAN und deren Zuordnung zu den Daten. In dieser Liste kann nach einer IBAN gesucht und die zugeordneten Daten ermitteln, um z.B. Dokumente mit IBAN zu den richtigen Daten im Rimo R4 abgelegt werden|
-|[vDMSKontierungsregel](/_views/vDMSKontierungsregel.md)|In dieser View sind alle definierten Kontierungsregeln mit Referenz-IDs (referenzid) aufgelistet. Die Kontierungsregeln können im Rimo R5 für definierte Geschäftsfälle konfiguriert werden und können im Kontierungsprozess als Vorlage wiederverwendet werden|
-|[vDMSKontoplan](/_views/vDMSKontoplan.md)|In dieser View sind alle im Rimo R5 zu bebuchenden Konti aufgeführt. Die verfügbarkeit der Konti wird gemäss Periode Beginn/Ende (periodebeginn/periodeende) definiert. Es dürfen nur Kontierungen via dmskontierung mitgegeben werden, welche gemäss Buchungsdatum (buchungdat) in die hier aufgeführte Periode passen|
-|[vDMSKredibuchung](/_views/vDMSKredibuchung.md)|Liste aller Kreditorenrechnngen gemäss Buchhaltung im Rimo R5|
+|[vDMSHypothek](/_views/vDMSHypothek.md)|Diese View zeigt alle Hypotheken mit der Zuordnung zur Liegenschaft. Die Angaben zum Kreditor sowie einer Zahlverbindung sind im Datenmodell berücksichtigt aber aktuell im Rimo R5 noch nicht in Gebrauch|
+|[vDMSIBANZuEntity](/_views/vDMSIBANZuEntity.md)|Diese Liste zeigt alle im Rimo R5 vorhandenen IBAN und deren Zuordnung zu den Daten. In dieser Liste kann nach einer IBAN gesucht und die zugeordneten Daten ermittelt werden, um z.Bsp. Dokumente mit IBAN zu den richtigen Daten im Rimo R5 abgelegt werden|
+|[vDMSKontierungsregel](/_views/vDMSKontierungsregel.md)|In dieser View sind alle definierten Kontierungsregeln mit Referenz-IDs (referenzid) aufgelistet. Die Kontierungsregeln können im Rimo R5 für definierte Geschäftsfälle konfiguriert werden und im Kontierungsprozess als Vorlage wiederverwendet werden|
+|[vDMSKontoplan](/_views/vDMSKontoplan.md)|In dieser View sind alle im Rimo R5 zu bebuchenden Konti aufgeführt. Die Verfügbarkeit der Konti wird gemäss Periode Beginn/Ende (periodebeginn/periodeende) definiert. Es dürfen nur Kontierungen via dmskontierung mitgegeben werden, welche gemäss Buchungsdatum (buchungdat) in die hier aufgeführte Periode passen|
+|[vDMSKredibuchung](/_views/vDMSKredibuchung.md)|Liste aller Kreditorenrechnungen gemäss Buchhaltung im Rimo R5|
 |[vDMSKreditor](/_views/vDMSKreditor.md)|Liste aller Kreditoren/Lieferanten|
-|[vDMSKreditorenrechnung](/_views/vDMSKreditorenrechnung.md)|In dieser View werden sämtliche im Rimo R5 verbuchten Kreditorenrechnungen aufgeführt, zu welchen Dokumente existieren. Hier erscheint z.B. auch das Zahlungsdatum (buchdatzlg), sobald die Rechnung via Rimo R5 bezahlt wurde|
-|[vDMSKreditorZahlverb](/_views/vDMSKreditorzahlverb.md)|Eine Liste sämtlicher Zahlverbindungen der Kreditoren mit erweiterten Personendaten der Kreditoren. Diese View eignet sich zur Identifikation eines Kreditore gemäss Rechnungssangaben|
+|[vDMSKreditorenrechnung](/_views/vDMSKreditorenrechnung.md)|In dieser View werden sämtliche im Rimo R5 verbuchten Kreditorenrechnungen aufgeführt, zu welchen Dokumente existieren. Hier erscheint z.Bsp. auch das Zahlungsdatum (buchdatzlg), sobald die Rechnung via Rimo R5 bezahlt wurde|
+|[vDMSKreditorZahlverb](/_views/vDMSKreditorzahlverb.md)|Eine Liste sämtlicher Zahlverbindungen der Kreditoren mit erweiterten Personendaten der Kreditoren. Diese View eignet sich zur Identifikation eines Kreditors gemäss Rechnungssangaben|
 |[vDMSLiegenschaft](/_views/vDMSLiegenschaft.md)|Liste aller Liegenschaften|
 |[vDMSMieter](/_views/vDMSMieter.md)|Liste aller Mieter/STEG Eigentümer|
 |[vDMSMieterbuchung](/_views/vDMSMieterbuchung.md)|In dieser Ansicht werden alle Debitorbuchungen aufgelistet|
@@ -58,14 +58,14 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 |[vDMSMWSTCodes](/_views/vDMSMWSTCodes.md)|Liste aller möglichen MWST Codes im Rimo R5. Ein MWST Code muss bei einer Buchung inkl. MWST mit der dmskontierung angegeben werden|
 |[vDMSObjekt](/_views/vDMSObjekt.md)|Liste sämtlicher Objekte / Mieteinheiten / STEG-Einheiten|
 |[vDMSPersart](/_views/vDMSPersart.md)|Liste aller möglichen Personenarten. Die Personenart muss für den automatischen Kreditorenabgleich zur Neuerfassung einer Person im Kreditorenstamm zur dmsrechnung mitgegeben werden|
-|[vDMSRechnung](/_views/vDMSRechnung.md)|Liste aller Kreditorenrechnungen/ -gutschriften (Dokumententypen 1 und 2), welche in den Staging Tabellen DMSImport/DMSRechnung/DMSKontierung erfasst sind|
+|[vDMSRechnung](/_views/vDMSRechnung.md)|Liste aller Kreditorenrechnungen/-gutschriften (Dokumententypen 1 und 2), welche in den Staging Tabellen DMSImport/DMSRechnung/DMSKontierung erfasst sind|
 |[vDMSRGVisumUser](/_views/vDMSRGVisumUser.md)|In dieser View werden alle Benutzer von Rimo R5 dargestellt. Die Benutzer könen in Workflows (vDMSWorkflow) hinterlegt werden|
 |[vDMSRolleZuLieg](/_views/vDMSRolleZuLieg.md)|In dieser View werden je Liegenschaft Benutzer in deren Rolle aufgeführt. Alternativ zu den Daten gemäss vDMSWorkflow können auch diese Rollendaten als Basis für Workflows verwendet werden|
 |[vDMSUnterhaltsart](/_views/vDMSUnterhaltsart.md)|Liste aller Unterhaltsarten. Die Unterhaltsart kann zur dmskontierung im Rahmen der technischen Verwaltung eingetragen werden|
 |[vDMSVersicherung](/_views/vDMSVersicherung.md)|Liste aller Versicherungen|
 |[vDMSVerwaltung](/_views/vDMSVerwaltung.md)|Liste aller Verwaltungen|
 |[vDMSWorkflow](/_views/vDMSWorkflow.md)|Liste aller Fibus mit Info des Workflows für Kreditorenrechnungen (Visum1-4)|
-|[vDMSZahlungscode](/_views/vDMSZahlungscode.md)|Liste aller möglichen Zahlungscode. Ein Zahlungscode kann alternativ zum Fälligkeitsdatum zur dmsrechnung angegeben werden|
+|[vDMSZahlungscode](/_views/vDMSZahlungscode.md)|Liste aller möglichen Zahlungscodes. Ein Zahlungscode kann alternativ zum Fälligkeitsdatum zur dmsrechnung angegeben werden|
 |[vDMSZahlverbKredi](/_views/vDMSZahlverbKredi.md)|Liste aller Zahlverbindungen zu Kreditoren|
 
 # Changelog
