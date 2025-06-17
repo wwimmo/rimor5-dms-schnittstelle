@@ -19,7 +19,7 @@
 |betrag|numeric(11, 2)|bedingt|500.00|Betrag der Kontierung<br>zwingend für automatischen Import|
 |belegnr|integer||532|manuelle Belegnummer|
 |mwstnr|integer|bedingt|10|MWST Code. <br>zwingend für automatischen Import, wenn Betrag mit MWST gebucht werden soll|
-|mwstsatz|numeric(5, 2)||8.00|Mehrwertsteuersatz<br>Ist nur nötig, wenn der %-Satz ein anderer ist, als derjenige, welcher zum Buchungsdatum gültig ist. <br>Bsp: per 23.01.2018 ist 7.7% gültig. Bei einer Rechnung per Buchungsdatum 23.01.2018, welche aber das Jahr 2017 betrifft, muss hier 8.00% eingetragen werden.|
+|mwstsatz|numeric(5, 2)||8.00|Mehrwertsteuersatz<br>Ist nur nötig, wenn der %-Satz ein anderer ist, als derjenige, welcher zum Buchungsdatum gültig ist. <br>Bsp: per 23.01.2018 ist 7.7% gültig. Bei einer Rechnung per Buchungsdatum 23.01.2018, welche aber das Jahr 2017 betrifft, muss hier 8.00% eingetragen werden. Hinweis: Ab Rimo R5 5.4.2.1008 diese Spalte nur zusammen mit "mwstnr" abfüllen, sonst kann der Beleg nicht importiert werden - es wird Import-Fehler 392 ausgegeben.|
 |netto|char(1)||N|‚N‘ oder NULL = BRUTTO<br>‚Y‘ = NETTO<br>NETTO bezieht sich auf den Betrag bezüglich MWST.<br>Wenn Betrag inkl. MWST, so kann Feld NETTO leer sein,<br>wenn Betrag exkl. MWST, so muss NETTO = ‚Y‘ sein.|
 |geraetenr|integer||698|Gerätenummer gemäss vDMSGeraet.<br>Wenn ein automatischer Unterhalt erfasst werden soll, so muss ein Gerät definiert werden.|
 |unterhaltsartnr|integer||1||Unterhaltsart gemäss vDMSUnterhaltsart|
