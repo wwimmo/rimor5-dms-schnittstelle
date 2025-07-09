@@ -11,8 +11,8 @@
 |:information_source:mieternr[^1]|integer|bedingt|1000101|Mieternummer. Prioritär gegenüber Kontierung (kto)<br>zwingend für automatischen Import, wenn kto leer|
 |forderungsart|integer||2|Forderungsart gemäss vDMSForderungsart nur möglich wenn Mieter bzw. STEG-Eigentümer (mieternr) angegeben wird|
 |:information_source:kto[^1]|integer|bedingt|4100|Kontonummer. Alternativ zu Mieternummer (mieternr)<br>zwingend für automatischen Import, wenn mieternr leer|
-|buchtxt1|varchar(50)|bedingt|Hauswartung|Buchungstext 1<br>zwingend für automatischen Import|
-|buchtxt2|varchar(50)||Laub zusam-mennehmen|Buchungstext 2|
+|buchtxt1|varchar(50)|bedingt|Hauswartung|Buchungstext 1<br>zwingend für automatischen Import<br>Wichtig: keine Zeilenumbrüche|
+|buchtxt2|varchar(50)||Laub zusam-mennehmen|Buchungstext 2<br>Wichtig: keine Zeilenumbrüche|
 |menge|numeric(13, 2)|bedingt|500|Menge ist nur zwingend, wenn Menge auf Konto als zwingend definiert (vDMSFibukonto.MENGEZWING = 1)|
 |buchungdat|date|bedingt|03.11.2020|Buchungsdatum muss pro dmsnr immer gleich sein<br>zwingend für automatischen Import|
 |hknkdat|date||03.11.2020|Datum zur Abgrenzung der Nebenkostenabrechnung. Wenn dieser Wert leer (NULL) geliefert wird, so überträgt Rimo R5 den Wert = BUCHUNGDAT beim Import in die Systemtabellen. Ansonsten wird das HKNKDAT in die Rimo R5 Buchung übernommen.|
