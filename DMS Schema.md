@@ -74,4 +74,4 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 |03.12.2024|[DMSRechnung](/_staging%20area/DMSRechnung.md)|Neue Spalte "hausnummer", Spalte "strasse" auf 70 Zeichen erweitert|ab 5.4.2.1326|
 |12.12.2024|[DMSImport](/_staging%20area/DMSImport.md)|Neue Spalte "invoiceid"|5.4.3.1370|
 |09.07.2025|[vDMSKreditorenrechnung](/_views/vDMSKreditorenrechnung.md)|neue Spalten "buchdatgs" und "verrechdat"|ab 5.4.3.1720|
-|10.07.2025|[vDMSEigentuemer](/_views/vDMSEigentuemer.md)|neue Spalten "vorname","name","nambezeichnung","namzusatz2","namzusatz3"|ab 5.4.3.1722|
+|10.07.2025|[vDMSEigentuemer](/_views/vDMSEigentuemer.md)|neue Spalten "vorname", "name", "nambezeichnung", "namzusatz2", "namzusatz3"|ab 5.4.3.1722|

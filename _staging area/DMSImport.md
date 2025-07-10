@@ -12,7 +12,7 @@
 |fibunr|integer|||Legacyfeld – wird nicht mehr aktiv verwendet|
 |kredinr|integer|||Legacyfeld – wird nicht mehr aktiv verwendet|
 |verwaltnr|integer|||Legacyfeld – wird nicht mehr aktiv verwendet|
-|invoiceid|varchar(36)|||Wird von Rimo-intern im Zusammenhang mit dem Kredi Flow benötigt - bitte nicht abfüllen|
+|invoiceid|varchar(36)|||Wird Rimo-intern im Zusammenhang mit dem Kredi Flow benötigt - bitte nicht abfüllen|
 |fehlercode|integer|||Wird von Rimo R5 gemäss [Fehlercodeliste](/_staging%20area/fehlercodes.md) abgefüllt|
 |erfuser|varchar(20)|||Erfassungsuser|
 |erfdat|timestamp|||Erfassungsdatum|
