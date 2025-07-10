@@ -49,7 +49,8 @@ dmsnr|varchar(100)|ja|936DA01F-9ABD-4D9D-80C7-02AF85C822A8|Eindeutige Identifika
 |nambezeichnung|varchar(40)|bedingt|Muster AG|Wenn PERSART = jur. Person<br>zwingend für automatischen Import einer neuen Person, wenn juristische Person
 |namzusatz2|varchar(30)||Filiale Zürich|nur wenn juristische Person
 |namzusatz3|varchar(30)||Hauswartung|
-|strasse|varchar(30)|bedingt|Müsterliweg 1|Strasse und Nr.<br>zwingend für automatischen Import einer neuen Person, wenn postfach leer
+|strasse|varchar(70)|bedingt|Müsterliweg|Strasse<br>zwingend für automatischen Kreditoren-/Personenabgleich, wenn postfach leer. Ausserdem ist die Trennung von Strasse und Hausnummer wärmstens empfohlen
+|hausnummer|varchar(16)|bedingt|3b|Für den automatischen Kreditoren-/Personenabgleich wird empfohlen die Strasse und Hausnummer getrennt zu erfassen
 |postfach|varchar(30)|bedingt|Postfach 1|Postfach, zwingend für automatischen Import einer neuen Person, wenn strasse leer ist
 |plz|varchar(10)|bedingt|8000|Postleitzahl, zwingend für automatischen Import einer neuen Person
 |ort|varchar(30)|bedingt|Zürich|Ortschaft, zwingend für automatischen Import einer neuen Person

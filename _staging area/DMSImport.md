@@ -9,9 +9,10 @@
 |dmslinknr|integer||123|Die Rimo R5 eindeutige interne Nummer jedes Dokumentes. Wird durch Rimo R5 definiert|
 |beschreibung|long varchar|||Wird in die Dokumenten-Beschreibung im E-Dossier übernommen|
 |dateierfdat|timestamp||16.01.2023 15:00:00|Wird in das Dokumentendatum im E-Dossier übernommen. Wird das Feld nicht abgefüllt, wird ins Dokumentendatum der Zeitpunkt des Imports geschrieben|
-|fibunr|integer|||Legacyfeld – wird nicht mehr aktiv verwendet.|
-|kredinr|integer|||Legacyfeld – wird nicht mehr aktiv verwendet.|
-|verwaltnr|integer|||Legacyfeld – wird nicht mehr aktiv verwendet.|
+|fibunr|integer|||Legacyfeld – wird nicht mehr aktiv verwendet|
+|kredinr|integer|||Legacyfeld – wird nicht mehr aktiv verwendet|
+|verwaltnr|integer|||Legacyfeld – wird nicht mehr aktiv verwendet|
+|invoiceid|varchar(36)|||Wird von Rimo-intern im Zusammenhang mit dem Kredi Flow benötigt - bitte nicht abfüllen|
 |fehlercode|integer|||Wird von Rimo R5 gemäss [Fehlercodeliste](/_staging%20area/fehlercodes.md) abgefüllt|
 |erfuser|varchar(20)|||Erfassungsuser|
 |erfdat|timestamp|||Erfassungsdatum|

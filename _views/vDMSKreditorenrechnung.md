@@ -12,7 +12,7 @@
 |eigentuemernr|varchar(4000)||
 |eigentuemername|varchar(4000)||
 |kredinr|integer||
-|krediname|varchar(30)||
+|krediname|varchar(50)||
 |extkredinr|integer||
 |flaufnr|integer||
 |zahlverbindnr|integer||
@@ -20,6 +20,8 @@
 |faelligdat|date||
 |buchdatrg|date||
 |buchdatzlg|date||
+|buchdatgs|date||
+|verrechdat|date||
 |rechnr|varchar(25)||
 |belastbanknr|integer||
 |belastbank|varchar(30)||

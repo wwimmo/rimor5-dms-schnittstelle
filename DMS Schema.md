@@ -49,7 +49,7 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 |[vDMSKontoplan](/_views/vDMSKontoplan.md)|In dieser View sind alle im Rimo R5 zu bebuchenden Konti aufgeführt. Die Verfügbarkeit der Konti wird gemäss Periode Beginn/Ende (periodebeginn/periodeende) definiert. Es dürfen nur Kontierungen via dmskontierung mitgegeben werden, welche gemäss Buchungsdatum (buchungdat) in die hier aufgeführte Periode passen|
 |[vDMSKredibuchung](/_views/vDMSKredibuchung.md)|Liste aller Kreditorenrechnungen gemäss Buchhaltung im Rimo R5|
 |[vDMSKreditor](/_views/vDMSKreditor.md)|Liste aller Kreditoren/Lieferanten|
-|[vDMSKreditorenrechnung](/_views/vDMSKreditorenrechnung.md)|In dieser View werden sämtliche im Rimo R5 verbuchten Kreditorenrechnungen aufgeführt, zu welchen Dokumente existieren. Hier erscheint z.Bsp. auch das Zahlungsdatum (buchdatzlg), sobald die Rechnung via Rimo R5 bezahlt wurde|
+|[vDMSKreditorenrechnung](/_views/vDMSKreditorenrechnung.md)|In dieser View werden sämtliche im Rimo R5 verbuchten Kreditorenrechnungen aufgeführt, zu welchen Dokumente existieren. Hier erscheint z.Bsp. auch das Zahlungsdatum (buchdatzlg), sobald die Rechnung via Rimo R5 bezahlt wurde und es ist das Verrechnungsdatum ersichtlich, an welchem eine Kreditorengutschrift mit einer Kreditorenrechnung (ohne Zahlung) verrechnet bzw. ausgeglichen wurde (verrechdat)|
 |[vDMSKreditorZahlverb](/_views/vDMSKreditorzahlverb.md)|Eine Liste sämtlicher Zahlverbindungen der Kreditoren mit erweiterten Personendaten der Kreditoren. Diese View eignet sich zur Identifikation eines Kreditors gemäss Rechnungssangaben|
 |[vDMSLiegenschaft](/_views/vDMSLiegenschaft.md)|Liste aller Liegenschaften|
 |[vDMSMieter](/_views/vDMSMieter.md)|Liste aller Mieter/STEG Eigentümer|
@@ -71,19 +71,7 @@ Die Views dienen dem DMS dazu im Workflow oder beim Scanning die Dokumente mit R
 # Changelog
 |Datum|Tabelle/View|Änderung|Kommentar|
 |-|-|-|-|
-|23.11.2023|[vDMSDokuTyp](/_views/vDMSDokuTyp.md)|neue Spalte "active"||
-|30.11.2023|[vDMSBuchungsHistory](/_views/vDMSBuchungsHistory.md)|neue Spalte "hknkdat"||
-|05.02.2024|[vDMSKreditor](/_views/vDMSKreditor.md)|neue Spalte "kurzbez"|ab 5.4.2.538|
-|08.02.2024|[vDMSGebaeude](/_views/vDMSGebaeude.md)|neue View|ab 5.4.2.545|
-|08.02.2024|[vDMSGebaeudeversicherung](/_views/vDMSGebaeudeversicherung.md)|neue View|ab 5.4.2.545|
-|08.02.2024|[vDMSVersicherung](/_views/vDMSVersicherung.md)|neue View|ab 5.4.2.545|
-|23.02.2024|[DMSKontierung](/_staging%20area/DMSKontierung.md)|erweiterte Funktionalität beim DMS Belegimport<br>(Dokumenten-Links auf Mieter anlegen)|ab 5.4.2.564<br>(siehe :information_source: bzw. Fussnote)|
-|06.05.2024|[DMSImport](/_staging%20area/DMSImport.md)|Spalte "bezeichnung" auf 255 Zeichen vergrössert|ab 5.4.2.547|
-|20.06.2024|[DMSRechnung](/_staging%20area/DMSRechnung.md)|Rechnung direkt nach dem Import auf Status "nicht zahlen" setzen, wenn dmsrechnung.ohnezahlung = "Y" |ab 5.4.2.598|
-|26.08.2024|[vDMSKreditorenrechnung](/_views/vDMSKreditorenrechnung.md)|neuen Spalten "flaufnr" und "belastbanknr" |ab 5.4.2.758|
-|09.09.2024|[vDMSEigentuemerProLieg](/_views/vDMSEigentuemerProLieg.md) [vDMSHauswartProLieg](/_views/vDMSHauswartProLieg.md)|neue Views|ab 5.4.2.760
-|24.09.2024|[vDMSFibubuchung](/_views/vDMSFibubuchung.md)|neue Spalten "storniert" und "doculinkexists"|ab 5.4.2.781|
-|05.12.2024|[vDMSDokument](/_views/vDMSDokument.md)|neue Spalten "dateiname", "ablagearchivnr", "ablagefilename", "pfad" und "remapdatum"|ab 5.4.2.892|
-|05.12.2024|[vDMSDokumententLinks](/_views/vDMSDokumentenLinks.md)|neue Spalte "dokulinkerfdat"|ab 5.4.2.892|
-|13.03.2025|[vDMSMieterZuObjekt](/_views/vDMSMieterZuObjekt.md)|neue Spalten "optiert", "mvvertrartnr" und "mvvertrartbez"|ab 5.4.2.966|
-|17.06.2025|[Fehlercode](/_staging%20area/fehlercodes.md)|neuer Fehlercode 392 |ab 5.4.2.1008|
+|03.12.2024|[DMSRechnung](/_staging%20area/DMSRechnung.md)|Neue Spalte "hausnummer", Spalte "strasse" auf 70 Zeichen erweitert|ab 5.4.2.1326|
+|12.12.2024|[DMSImport](/_staging%20area/DMSImport.md)|Neue Spalte "invoiceid"|5.4.3.1370|
+|09.07.2025|[vDMSKreditorenrechnung](/_views/vDMSKreditorenrechnung.md)|neue Spalten "buchdatgs" und "verrechdat"|ab 5.4.3.1720|
+|10.07.2025|[vDMSEigentuemer](/_views/vDMSEigentuemer.md)|neue Spalten "vorname","name","nambezeichnung","namzusatz2","namzusatz3"|ab 5.4.3.1722|
