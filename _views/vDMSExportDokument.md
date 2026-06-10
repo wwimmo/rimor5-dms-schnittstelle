@@ -9,7 +9,7 @@
 |archiv|integer||
 |dmsdokutypnr|integer||
 |dmsdokutypbezeichnung|varchar(50)||
-|dokumentbezeichnung|varchar(50)||
+|dokumentbezeichnung|varchar(255)||
 |beschreibung|varchar(4000)||
 |orgdateiname|varchar(255)||
 |orgdateierfdat|timestamp||
